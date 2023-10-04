@@ -35,8 +35,12 @@ def mapa_global():
             locations=[(coord[1], coord[0]) for coord in geom.coords],
             color=cor,
             weight=peso,
-            popup=f"<b>Construção: </b>{construcao}<br><b>Linha: </b>{linha}<br><b>Abertura: </b>{abertura}",
-            max_width=300
+            popup=folium.Popup(
+                f"<b>Construção: </b>{construcao}<br>"
+                f"<b>Linha: </b>{linha}<br>"
+                f"<b>Abertura: </b>{abertura}",
+                max_width=300
+            )
         ).add_to(mapa)
 
     def iterate_geojson(geom, construcao, linha, abertura, system, cores_linhas, mapa, grupos):

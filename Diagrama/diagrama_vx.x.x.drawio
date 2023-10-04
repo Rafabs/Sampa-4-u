@@ -1,0 +1,1142 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
+        <mxGraphModel dx="5446" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2439" pageHeight="1700" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="78961159f06e98e8-17" value="Mapa dos Trilhos\\main.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="301" width="240" height="569" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78961159f06e98e8-21" value="Linha 1 - Azul" style="text;html=1;strokeColor=none;fillColor=#0455A1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="26" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="78961159f06e98e8-23" value="Linha 2 - Verde" style="text;html=1;strokeColor=none;fillColor=#007E5E;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="52" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="78961159f06e98e8-25" value="Linha 3 - Vermelha" style="text;html=1;strokeColor=none;fillColor=#EE372F;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="78" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="78961159f06e98e8-26" value="Linha 4 - Amarela" style="text;html=1;strokeColor=none;fillColor=#FFF000;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="104" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="78961159f06e98e8-24" value="Linha 5 - Lilás" style="text;html=1;strokeColor=none;fillColor=#9B3894;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="130" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-6" value="Linha 7 - Rubi" style="text;html=1;strokeColor=none;fillColor=#CA016B;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="156" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-5" value="Linha 8 - Diamante" style="text;html=1;strokeColor=none;fillColor=#97A098;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="182" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-3" value="Linha 9 - Esmeralda" style="text;html=1;strokeColor=none;fillColor=#01A9A7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="208" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-4" value="Linha 10 - Turquesa" style="text;html=1;strokeColor=none;fillColor=#049FC3;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="234" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-20" value="Linha 11 - Coral" style="text;html=1;strokeColor=none;fillColor=#F68368;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="260" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-19" value="Linha 12 - Safira" style="text;html=1;strokeColor=none;fillColor=#133C8D;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="286" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-18" value="Linha 13 - Jade" style="text;html=1;strokeColor=none;fillColor=#00B352;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="312" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Uw6NDQKVYuT3fAhIhadP-21" value="Linha 15 - Prata" style="text;html=1;strokeColor=none;fillColor=#C0C0C0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="338" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-1" value="Trem de Guararema (ABPF)" style="text;html=1;strokeColor=none;fillColor=#f8e71c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="364" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-2" value="Estrada de Ferro Perus-Pirapora (IFPPC)" style="text;html=1;strokeColor=none;fillColor=#7ed321;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="390" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="78961159f06e98e8-19" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="416" width="240" height="4" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-3" value="btn - Acessar Mapa" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="420" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-35" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="446" width="240" height="4" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-34" value="mapa_global.html" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="450" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="476" width="240" height="4" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="btn - SPTRANS" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="480" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="506" width="240" height="4" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="mapa_paradas_cluster.html" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="510" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="536" width="240" height="4" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="mapa_shapes.html" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
+                    <mxGeometry y="540" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.031;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-5" target="DLEIIGMAwjSktPikzDus-117" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1670" y="126"/>
+                            <mxPoint x="1670" y="1335"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-5" value="Mapa dos Trilhos\\Linhas\\Metrô_SP_L1.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="100" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-6" value="Código para plotagem do mapa da Linha 1 - Azul" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-5" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=block;startFill=1;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-27" target="DLEIIGMAwjSktPikzDus-30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-27" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome;fillStyle=solid;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="589.9999999999999" y="1041" width="40" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.513;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;entryPerimeter=0;" parent="1" target="DLEIIGMAwjSktPikzDus-34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="610" y="1085" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="1105"/>
+                            <mxPoint x="310" y="1105"/>
+                            <mxPoint x="310" y="764"/>
+                            <mxPoint x="338" y="764"/>
+                        </Array>
+                        <mxPoint x="339.99999999999955" y="819" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-30" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.html5;fillStyle=solid;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="593.8" y="1126" width="32.4" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.029;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryPerimeter=0;exitX=0.999;exitY=0.108;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-112" target="78961159f06e98e8-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="315"/>
+                            <mxPoint x="330" y="317"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-112" value="Mapa dos Trilhos\\Data" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="24" y="301" width="250" height="234" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-113" value="sao-paulo_sections.geojson" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="26" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-114" value="sao-paulo_stations.geojson" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="52" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-115" value="sao-paulo_lines_systems_and_modes.json" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="78" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="caminho_icones.json" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="104" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="LL_WGS84_KMZ_bicicletarioparacilo.json" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="130" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="LL_WGS84_KMZ_redecicloviaria.json" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="156" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="SIRGAS_SHP_origemdestino_2007.json" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="182" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="SIRGAS_SHP_origemdestino_2017.json" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
+                    <mxGeometry y="208" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=none;html=1;entryX=-0.011;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.015;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-117" target="DLEIIGMAwjSktPikzDus-142" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-117" value="Mapa dos Trilhos\\Icons" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1722" y="1048" width="200" height="522" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-118" value="1_azul.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="26" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-119" value="2_verde.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="52" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-120" value="3_vermelha.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="78" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-121" value="4_amarela.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="104" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-124" value="5_lilas.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="130" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-125" value="6_laranja.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="156" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-126" value="8_diamante.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="182" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-127" value="9_esmeralda.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="208" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-128" value="15_prata.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="234" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-129" value="17_ouro.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="260" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-130" value="18_bronze.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="286" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-131" value="cptm.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="312" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-132" value="default.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="338" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-133" value="expresso_turistico.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="364" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-134" value="onibus_emtu.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="390" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-135" value="onibus_sptrans.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="416" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="bicicleta.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="442" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="icone-terminais-pontos.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                    <mxGeometry y="468" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-136" value="Mapa dos Trlhos\\Icons\\svg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
+                    <mxGeometry y="494" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-137" value="Mapa dos Trlhos\\Icons\\svg" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1986" y="1542" width="240" height="104" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-138" value="CPTM_icon.svg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-137" vertex="1">
+                    <mxGeometry y="26" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-139" value="Logo_ViaMobilidade_(branco).svg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-137" vertex="1">
+                    <mxGeometry y="52" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-140" value="Sao_Paulo_Metro_Logo.svg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-137" vertex="1">
+                    <mxGeometry y="78" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-136" target="DLEIIGMAwjSktPikzDus-137" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" style="edgeStyle=none;html=1;entryX=-0.002;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;exitX=1;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-142" target="102" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-142" value="Mapa dos Trlhos\\Imgs" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1986" y="1052" width="190" height="212" as="geometry">
+                        <mxRectangle x="2014" y="1320" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-143" value="CPTM_LOGO.jpg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-142" vertex="1">
+                    <mxGeometry y="26" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-144" value="METRO_LOGO.jpg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-142" vertex="1">
+                    <mxGeometry y="52" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-146" value="VIAQUATRO_LOGO.jpg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-142" vertex="1">
+                    <mxGeometry y="78" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-147" value="VM_LOGO.jpg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-142" vertex="1">
+                    <mxGeometry y="104" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="ABPF_LOGO.jpg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-142" vertex="1">
+                    <mxGeometry y="130" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="IFPPC_LOGO.jpg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-142" vertex="1">
+                    <mxGeometry y="156" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="SP4U_LOGO.jpg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-142" vertex="1">
+                    <mxGeometry y="182" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="78961159f06e98e8-21" target="DLEIIGMAwjSktPikzDus-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="340"/>
+                            <mxPoint x="700" y="126"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-150" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#0455A1;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="100" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-151" value="Plotagem da Linha 1 - Azul" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-150" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-154" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="189" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1610" y="189"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-154" value="Mapa dos Trilhos\\Linhas\\Metrô_SP_L2.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="160" width="532.38" height="58" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-155" value="Código para plotagem do mapa da Linha 2 - Verde" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-154" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="78961159f06e98e8-23" target="DLEIIGMAwjSktPikzDus-154" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="710" y="366"/>
+                            <mxPoint x="710" y="186"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-157" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="246" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-157" value="Mapa dos Trilhos\\Linhas\\Metrô_SP_L3.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="220" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-158" value="Código para plotagem do mapa da Linha 3 - Vermelha" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-157" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-159" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="306" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-159" value="Mapa dos Trilhos\\Linhas\\Metrô_SP_L4.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="280" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-160" value="Código para plotagem do mapa da Linha 4 - Amarela" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-159" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-161" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="366" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-161" value="Mapa dos Trilhos\\Linhas\\Metrô_SP_L5.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="340" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-162" value="Código para plotagem do mapa da Linha 5 - Lilás" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-161" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-163" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="420" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1670" y="426"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-163" value="Mapa dos Trilhos\\Linhas\\CPTM_SP_L7.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="400" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-164" value="Código para plotagem do mapa da Linha 7 - Rubi" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-163" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-165" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="490" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1670" y="486"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-165" value="Mapa dos Trilhos\\Linhas\\CPTM_SP_L8.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="460" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-166" value="Código para plotagem do mapa da Linha 8 - Diamante" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-165" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-167" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="546" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-167" value="Mapa dos Trilhos\\Linhas\\CPTM_SP_L9.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="520" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-168" value="Código para plotagem do mapa da Linha 9 - Esmeralda" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-167" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-169" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="604" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-169" value="Mapa dos Trilhos\\Linhas\\CPTM_SP_L10.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="578" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-170" value="Código para plotagem do mapa da Linha 10 - Turquesa" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-169" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-171" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="662" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-171" value="Mapa dos Trilhos\\Linhas\\CPTM_SP_L11.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="636" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-172" value="Código para plotagem do mapa da Linha 11 - Coral" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-171" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-173" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-173" value="Mapa dos Trilhos\\Linhas\\CPTM_SP_L12.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="694" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-174" value="Código para plotagem do mapa da Linha 12 - Safira" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-173" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-175" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="778" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-175" value="Mapa dos Trilhos\\Linhas\\CPTM_SP_L13.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.82" y="752" width="532.18" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-176" value="Código para plotagem do mapa da Linha 13 - Jade" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-175" vertex="1">
+                    <mxGeometry y="26" width="532.18" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-177" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="836" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-177" value="Mapa dos Trilhos\\Linhas\\Metrô_SP_L15.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.82" y="810" width="532.18" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-178" value="Código para plotagem do mapa da Linha 15 - Prata" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-177" vertex="1">
+                    <mxGeometry y="26" width="532.18" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-179" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1670" y="890" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1670" y="894"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-179" value="Mapa dos Trilhos\\Linhas\\Trem de Guararema (ABPF).py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.82" y="868" width="532.18" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-180" value="Código para plotagem do mapa da Linha do Trem de Guararema" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-179" vertex="1">
+                    <mxGeometry y="26" width="532.18" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;strokeColor=#ffffff;exitX=1.002;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="DLEIIGMAwjSktPikzDus-182" target="DLEIIGMAwjSktPikzDus-117" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1270" y="945.5" as="sourcePoint"/>
+                        <mxPoint x="1598" y="520.0079999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1670" y="951"/>
+                            <mxPoint x="1670" y="1335"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-181" value="Mapa dos Trilhos\\Linhas\\Estrada_de_Ferro_Perus_-_Pirapora_(IFPPC).py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="926" width="532.38" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-182" value="Código para plotagem do mapa da Linha do trem da Estrada de Ferro de Perus-Pirapora" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-181" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=-0.082;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="78961159f06e98e8-25" target="DLEIIGMAwjSktPikzDus-158" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="392"/>
+                            <mxPoint x="720" y="244"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=-0.064;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="78961159f06e98e8-26" target="DLEIIGMAwjSktPikzDus-160" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="418"/>
+                            <mxPoint x="730" y="304"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-6" target="DLEIIGMAwjSktPikzDus-164" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="470"/>
+                            <mxPoint x="750" y="427"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="78961159f06e98e8-24" target="DLEIIGMAwjSktPikzDus-162" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="740" y="444"/>
+                            <mxPoint x="740" y="367"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-5" target="DLEIIGMAwjSktPikzDus-166" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="496"/>
+                            <mxPoint x="750" y="488"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-3" target="DLEIIGMAwjSktPikzDus-168" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="522"/>
+                            <mxPoint x="750" y="548"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-4" target="DLEIIGMAwjSktPikzDus-170" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="740" y="548"/>
+                            <mxPoint x="740" y="605"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-20" target="DLEIIGMAwjSktPikzDus-171" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="574"/>
+                            <mxPoint x="730" y="662"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-19" target="DLEIIGMAwjSktPikzDus-173" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="600"/>
+                            <mxPoint x="720" y="720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-18" target="DLEIIGMAwjSktPikzDus-176" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="710" y="626"/>
+                            <mxPoint x="710" y="780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="Uw6NDQKVYuT3fAhIhadP-21" target="DLEIIGMAwjSktPikzDus-177" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="652"/>
+                            <mxPoint x="700" y="836"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-1" target="DLEIIGMAwjSktPikzDus-179" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="690" y="678"/>
+                            <mxPoint x="690" y="894"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-2" target="DLEIIGMAwjSktPikzDus-181" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="680" y="704"/>
+                            <mxPoint x="680" y="952"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-3" target="DLEIIGMAwjSktPikzDus-27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-228" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#7ed321;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="926" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-229" value="Plotagem da Linha do trem da Estrada de Ferro de Perus-Pirapora" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-228" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-230" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#007E5E;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="160" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-231" value="Plotagem da Linha 2 - Verde" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-230" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-232" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#EE372F;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="220" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-233" value="Plotagem da Linha 3 - Vermelha" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-232" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-234" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFF000;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="280" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-235" value="Plotagem da Linha 4 - Amarela" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="DLEIIGMAwjSktPikzDus-234" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-236" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#9B3894;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="340" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-237" value="Plotagem da Linha 5 - Lilás" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-236" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-238" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#CA016B;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="400" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-239" value="Plotagem da Linha 7 - Rubi" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-238" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-240" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#97A098;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="460" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-241" value="Plotagem da Linha 8 - Diamante" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-240" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-242" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#01A9A7;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="520" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-243" value="Plotagem da Linha 9 - Esmeralda" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-242" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-244" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#049FC3;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="578" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-245" value="Plotagem da Linha 10 - Turquesa" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-244" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-246" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#F68368;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="636" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-247" value="Plotagem da Linha 11 - Coral" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-246" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-248" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#133C8D;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="694" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-249" value="Plotagem da Linha 12 - Safira" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-248" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-250" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#00B352;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="752" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-251" value="Plotagem da Linha 13 - Jade" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-250" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-252" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#C0C0C0;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="810" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-253" value="Plotagem da Linha 15 - Prata" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-252" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-254" value="Tkinter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#f8e71c;" parent="1" vertex="1">
+                    <mxGeometry x="1900" y="867" width="370" height="52" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-255" value="Plotagem da Linha do Trem de Guararema" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-254" vertex="1">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=none;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-6" target="DLEIIGMAwjSktPikzDus-150" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-155" target="DLEIIGMAwjSktPikzDus-230" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-158" target="DLEIIGMAwjSktPikzDus-232" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-160" target="DLEIIGMAwjSktPikzDus-234" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.295;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-162" target="DLEIIGMAwjSktPikzDus-236" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-164" target="DLEIIGMAwjSktPikzDus-238" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-166" target="DLEIIGMAwjSktPikzDus-240" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-168" target="DLEIIGMAwjSktPikzDus-242" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-170" target="DLEIIGMAwjSktPikzDus-244" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-172" target="DLEIIGMAwjSktPikzDus-246" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-174" target="DLEIIGMAwjSktPikzDus-248" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-176" target="DLEIIGMAwjSktPikzDus-250" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-178" target="DLEIIGMAwjSktPikzDus-252" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-180" target="DLEIIGMAwjSktPikzDus-254" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-182" target="DLEIIGMAwjSktPikzDus-228" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;" parent="1" source="DLEIIGMAwjSktPikzDus-273" target="78961159f06e98e8-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DLEIIGMAwjSktPikzDus-273" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;dashed=0;fillStyle=solid;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--24" value="" style="group;fillColor=#000000;strokeColor=#b46504;rounded=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="74" y="1138" width="200" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;direction=south;rotation=-90;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="-95" y="95" width="390" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_normal;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="11" y="55" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.android.navigation_bar_1;fillColor=#1A1A1A;strokeColor=#999999;rotation=0;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="11" y="323" width="178" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--7" value="" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.android.statusBar;align=center;fillColor=#000000;strokeColor=#ffffff;fontColor=#ffffff;fontSize=10;rotation=0;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="9.220000000000027" y="35" width="183.57" height="15.825" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Atualização de Versão&lt;br&gt;&lt;font color=&quot;#6c767d&quot;&gt;v1.0.5&lt;/font&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;Incrementação de mapa único com todas as informações por meio de câmadas." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=12;gradientColor=none;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="13" y="105" width="174" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--18" value="Card link" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#0085FC;resizeWidth=1;fontSize=12;align=center;" parent="g9l8wpEIqW-7CiNvlEh--17" vertex="1">
+                    <mxGeometry y="1" width="55.68" height="40" relative="1" as="geometry">
+                        <mxPoint x="10" y="-50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--19" value="Another link" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#0085FC;resizeWidth=1;fontSize=12;align=center;" parent="g9l8wpEIqW-7CiNvlEh--17" vertex="1">
+                    <mxGeometry y="1" width="69.6" height="40" relative="1" as="geometry">
+                        <mxPoint x="100" y="-50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--20" value="Rafael Barbosa" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#343A40;fontColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="55" y="55" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--21" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="82" y="280" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--22" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.google_drive;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="15" y="280" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="g9l8wpEIqW-7CiNvlEh--23" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.translate;" parent="g9l8wpEIqW-7CiNvlEh--24" vertex="1">
+                    <mxGeometry x="145" y="280" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;endArrow=classic;endFill=1;startArrow=none;startFill=0;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="567"/>
+                            <mxPoint x="320" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Mapa dos Trilhos\\temperatura.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="24" y="539" width="250" height="56" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Função para exibir temperatura por API" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=-0.004;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="8" target="78961159f06e98e8-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="320" y="627"/>
+                            <mxPoint x="320" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Mapa dos Trilhos\\mapa.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="24" y="599" width="250" height="56" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Função para plotagem do mapa .GEOJSON" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="8" vertex="1">
+                    <mxGeometry y="26" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="11" target="78961159f06e98e8-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="320" y="687"/>
+                            <mxPoint x="320" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Mapa dos Trilhos\\cet.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="24" y="659" width="250" height="56" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Função para web scraping CET/SP" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="11" vertex="1">
+                    <mxGeometry y="26" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;" parent="1" source="DLEIIGMAwjSktPikzDus-151" target="78961159f06e98e8-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2300" y="139"/>
+                            <mxPoint x="2300" y="80"/>
+                            <mxPoint x="520" y="80"/>
+                        </Array>
+                        <mxPoint x="2390.000000000001" y="139.55882352941194" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2300" y="80" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="200"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="199.55882352941194" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="260"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="259.55882352941194" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="320"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="319.55882352941194" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="380"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="379.55882352941194" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="440"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="439.55882352941194" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="420" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="500"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="499.55882352941194" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="480" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="560"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="559.5588235294119" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="540" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="617"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="617" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="675"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="675" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="650" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="733"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="733" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="710" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="790"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="790.4411764705883" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="760" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="849"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="848.9999999999998" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="820" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="906"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="906" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2302" y="870" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2302" y="965"/>
+                        </Array>
+                        <mxPoint x="2272.000000000001" y="965" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;entryX=0;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="82" target="78961159f06e98e8-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="320" y="747"/>
+                            <mxPoint x="320" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="Mapa dos Trilhos\\gfts.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="24" y="719" width="250" height="56" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="Função para exibir os dados GFTS SPTrans" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="82" vertex="1">
+                    <mxGeometry y="26" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=none;html=1;exitX=0;exitY=0.049;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="85" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="30" y="711" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint y="792"/>
+                            <mxPoint y="733"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="Mapa dos Trilhos\\Gtfs" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="24" y="779" width="250" height="260" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="agency.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="26" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="calendar.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="52" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="fare_atributes.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="78" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="fare_rules.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="104" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="routes.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="130" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="shapes.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="156" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="stop_times.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="182" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="stops.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="208" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="trips.txt" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="85" vertex="1">
+                    <mxGeometry y="234" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Mapa dos Trlhos\\Favicon" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="2240" y="1048" width="190" height="364" as="geometry">
+                        <mxRectangle x="2014" y="1320" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" value="1_azul.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="26" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="2_verde.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="52" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="3_vermelha.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="78" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="4_amarela.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="104" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="5_lilas.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="130" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="cptm.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="156" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="8_diamante.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="182" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="9_esmeralda.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="208" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="15_prata.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="234" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="ABFP_LOGO.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="260" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="IFPPC_LOGO.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="286" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="onibus_sptrans.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="312" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="SP4U_LOGO.ico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="102" vertex="1">
+                    <mxGeometry y="338" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="Mapa dos Trilhos\\gtfs.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="771.62" y="985" width="532.38" height="104" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="Código para plotagem do mapa e busca de linhas do GTFSda SPTrans" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="123" vertex="1">
+                    <mxGeometry y="26" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="btn - Visualizar Mapa de Ruas Atendidas" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="123" vertex="1">
+                    <mxGeometry y="52" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="btn - Visualizar Mapa com as Paradas" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="123" vertex="1">
+                    <mxGeometry y="78" width="532.38" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=none;html=1;entryX=0;entryY=0.112;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;entryPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="122" target="123" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="670" y="794"/>
+                            <mxPoint x="670" y="910"/>
+                            <mxPoint x="670" y="997"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="132" style="edgeStyle=none;rounded=0;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="1" source="128" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="824.0000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="133" style="edgeStyle=none;rounded=0;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="1" source="129" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="854.0000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=none;rounded=0;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="1" source="126" target="DLEIIGMAwjSktPikzDus-27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="670" y="1050"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="135" style="edgeStyle=none;rounded=0;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" parent="1" source="127" target="DLEIIGMAwjSktPikzDus-27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="1060" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="670" y="1076"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

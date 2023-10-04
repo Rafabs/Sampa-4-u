@@ -106,7 +106,7 @@ Obrigado por visitar este repositório! Esperamos que os mapas de linhas de metr
 
 Divirta-se explorando os mapas do transporte metropolitano de São Paulo!
 
-> [!NOTA]
+> [!NOTE]
 > Esse projeto foi construído apenas para fins de aprendizado, sem qualquer vínculo.
 
 ## Versões e Fases

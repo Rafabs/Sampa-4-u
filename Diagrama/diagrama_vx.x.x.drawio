@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-        <mxGraphModel dx="8263" dy="2396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2439" pageHeight="1700" background="none" math="0" shadow="0">
+        <mxGraphModel dx="3895" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2439" pageHeight="1700" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -261,10 +261,10 @@
                 <mxCell id="DLEIIGMAwjSktPikzDus-136" value="SP4U.gif" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
                     <mxGeometry y="494" width="200" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="202" value="SP4U.piskel" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                <mxCell id="202" value="SP4U.piskel" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
                     <mxGeometry y="520" width="200" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="203" value="Mapa dos Trlhos\\Icons\\svg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                <mxCell id="203" value="Mapa dos Trlhos\\Icons\\svg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
                     <mxGeometry y="546" width="200" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="DLEIIGMAwjSktPikzDus-137" value="Mapa dos Trlhos\\Icons\\svg" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
@@ -1305,7 +1305,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="201" style="edgeStyle=none;html=1;entryX=0.485;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="195" target="154" edge="1">
+                <mxCell id="201" style="edgeStyle=none;html=1;entryX=0.485;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="195" target="154" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="460" y="1316"/>

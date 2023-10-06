@@ -6,6 +6,7 @@ from PIL import Image, ImageTk  # Manipular imagens
 from datetime import datetime
 from tkinter import ttk
 import tkinter as tk
+from guias import *
 from cet import transito
 from temperatura import get_weather
 from gtfs import sptrans
@@ -90,11 +91,11 @@ prata = "#C0C0C0"
 preto = "#000000"
 branco = "#FFFFFF"
 
-# Criando o primeiro frame (Mapas)
-frame_mapas = ttk.LabelFrame(layout, text="Mapas", labelanchor='n')
+# Criando o frame (Mapas)
+frame_mapas = ttk.LabelFrame(layout, text="Mapas - Capital e RMSP", labelanchor='n')
 frame_mapas.place(relx=0.5, rely=0, anchor=tk.N)
 
-# Botões do primeiro frame
+# Botões do frame (Mapas)
 map_transp_button = tk.Button(
     frame_mapas, text="Acessar Mapa", command=mapa_global, fg="#ffffff", bg="#442fff")
 map_transp_button.pack(pady=5, fill='both', expand=True)
@@ -104,10 +105,46 @@ frame_sistemas = ttk.LabelFrame(
     layout, text="Sistemas de Buscas de Linhas", labelanchor='n')
 frame_sistemas.place(relx=0.5, rely=0.075, anchor=tk.N)
 
-# Botões do frame
+# Botões do frame (Sistemas)
 sptrans_button = tk.Button(
     frame_sistemas, text="SPTRANS", command=sptrans, fg="black", bg="#ff2f2f")
 sptrans_button.pack(pady=5, fill='both', expand=True)
+
+# Criando o frame (Mapas da Rede)
+frame_mapa_guia = ttk.LabelFrame(
+    layout, text="Mapa da Rede - /Fev.23", labelanchor='n')
+frame_mapa_guia.place(relx=0.5, rely=0.150, anchor=tk.N)
+
+# Botões do frame (Mapas da Rede)
+mapa_rede_button = tk.Button(
+    frame_mapa_guia, text="Mapa da Rede", command=mapa_rede, fg="black", bg="#00B352")
+mapa_rede_button.pack(pady=5, fill='both', expand=True)
+
+# Criando o frame (Guia de Usuário - Metrô)
+frame_guia_metro = ttk.LabelFrame(
+    layout, text="Guia de Usuário - METRÔ", labelanchor='n')
+frame_guia_metro.place(relx=0.5, rely=0.225, anchor=tk.N)
+
+guia_pt_metro_button = tk.Button(
+    frame_guia_metro, text="Guia do Usuário - PT/BR", command=guia_pt_metro, fg="black", bg="#00B352")
+guia_pt_metro_button.pack(pady=5, fill='both', expand=True)
+
+guia_en_metro_button = tk.Button(
+    frame_guia_metro, text="Guia do Usuário - EN/US", command=guia_en_metro, fg="black", bg="#00B352")
+guia_en_metro_button.pack(pady=5, fill='both', expand=True)
+
+# Criando o frame (Guia de Usuário - CPTM)
+frame_guia_cptm = ttk.LabelFrame(
+    layout, text="Guia de Usuário - CPTM", labelanchor='n')
+frame_guia_cptm.place(relx=0.5, rely=0.325, anchor=tk.N)
+
+guia_pt_metro_button = tk.Button(
+    frame_guia_cptm, text="Guia do Usuário - CPTM", command=guia_cptm, fg="black", bg="#ff2f2f")
+guia_pt_metro_button.pack(pady=5, fill='both', expand=True)
+
+guia_en_metro_button = tk.Button(
+    frame_guia_cptm, text="Guia do Usuário - Expresso Turístico", command=guia_cptm_expresso_turistico, fg="black", bg="#ff2f2f")
+guia_en_metro_button.pack(pady=5, fill='both', expand=True)
 
 # Botão para abrir o mapa da malha ferroviária e de corredores de ônibus
 button_l1 = tk.Button(layout, text="Azul", command=line1,

@@ -46,6 +46,7 @@ pip install webbrowser
 pip install datetime
 pip install threading
 pip install pyproj
+pip install pymupdf
 ```
 
 ## Linguagens e IDE Utilizadas
@@ -59,7 +60,9 @@ Todos os dados utilizados nesse projeto são abertos e alimentados pela comunida
 - [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
 - [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
 - [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
-
+- [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
+- [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
+  
 ## Como Executar
 
 Para executar qualquer um dos scripts e visualizar o mapa da linha correspondente, siga estas etapas, dependendo do seu sistema operacional:

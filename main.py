@@ -11,6 +11,7 @@ from cet import transito
 from temperatura import get_weather
 from gtfs import sptrans
 from mapa import mapa_global
+from web import status
 from Metrô_SP_L1 import line1
 from Metrô_SP_L2 import line2
 from Metrô_SP_L3 import line3
@@ -26,6 +27,50 @@ from CPTM_SP_L13 import line13
 from Metrô_SP_L15 import line15
 from Pirapora import pirapora
 from Guararema import guararema
+
+def determinar_cor(status):
+    if "Operação Normal" in status:
+        return "green"
+    elif "Circulação de Trens" in status or "Velocidade Reduzida" in status:
+        return "yellow"
+    elif "Paralisada" in status:
+        return "red"
+
+def atualizar_status():
+    linhas, status_list, mensagens = status()
+
+    for linha, stat in zip(linhas, status_list):
+        texto = f"{stat}"
+        if linha == "Linha 1 - Azul":
+            label_l1.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "Linha 2 - Verde":
+            label_l2.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "Linha 3 - Vermelha":
+            label_l3.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "Linha 4-Amarela":
+            label_l4.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "Linha 5-Lilás":
+            label_l5.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "RUBI":
+            label_l7.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "Linha 8-Diamante":
+            label_l8.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "Linha 9-Esmeralda":
+            label_l9.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "TURQUESA":
+            label_l10.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "CORAL":
+            label_l11.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "SAFIRA":
+            label_l12.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "JADE":
+            label_l13.config(text=texto, fg=determinar_cor(stat), bg="#333333")
+        elif linha == "Linha 15 - Prata":
+            label_l15.config(text=texto, fg=determinar_cor(stat), bg="#333333")                                                                                                                                    
+        # Adicione mais elifs conforme necessário para as outras linhas
+
+    for mensagem in mensagens:
+        label_msg.config(text=mensagem, fg="yellow", bg="#333333")       
 
 # Criando a janela
 layout = tk.Tk()
@@ -146,6 +191,13 @@ guia_en_metro_button = tk.Button(
     frame_guia_cptm, text="Guia do Usuário - Expresso Turístico", command=guia_cptm_expresso_turistico, fg="black", bg="#CA016B")
 guia_en_metro_button.pack(pady=5, fill='both', expand=True)
 
+# Ocorrências
+traço = canvas.create_line(0, 790, 500, 790, fill="#C0C0C0")
+msg_ico = canvas.create_text(
+    10, 800, text="Ocorrências:", font="Helvetica 10 bold", anchor="w", fill=branco)
+label_msg = tk.Label(layout, text="", anchor="se")
+label_msg.place(x=10, y=810) 
+
 # Botão para abrir o mapa da malha ferroviária e de corredores de ônibus
 button_l1 = tk.Button(layout, text="Azul", command=line1,
                       fg="white", bg=azul, width=11)
@@ -154,6 +206,8 @@ linha1_azul_icon = canvas.create_text(
     1800, 13, text="●", font="Helvetica 32", anchor="w", fill=azul)
 l1_icon = canvas.create_text(
     1809, 15, text="1", font="Helvetica 10 bold", anchor="w", fill=branco)
+label_l1 = tk.Label(layout, text="", anchor="se")
+label_l1.place(x=1680, y=5) 
 
 button_l2 = tk.Button(layout, text="Verde", command=line2,
                       bg=verde, fg="white", width=11)
@@ -162,6 +216,8 @@ linha2_verde_icon = canvas.create_text(
     1800, 38, text="●", font="Helvetica 32", anchor="w", fill=verde)
 l2_icon = canvas.create_text(
     1809, 40, text="2", font="Helvetica 10 bold", anchor="w", fill=branco)
+label_l2 = tk.Label(layout, text="", anchor="se")
+label_l2.place(x=1680, y=30)  
 
 button_l3 = tk.Button(layout, text="Vermelha", command=line3,
                       bg=vermelha, fg="black", width=11)
@@ -170,6 +226,8 @@ linha3_vermelha_icon = canvas.create_text(
     1800, 63, text="●", font="Helvetica 32", anchor="w", fill=vermelha)
 l3_icon = canvas.create_text(
     1809, 65, text="3", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l3 = tk.Label(layout, text="", anchor="se")
+label_l3.place(x=1680, y=55)  
 
 button_l4 = tk.Button(layout, text="Amarela", command=line4,
                       bg=amarela, fg="black", width=11)
@@ -178,6 +236,8 @@ linha4_amarela_icon = canvas.create_text(
     1800, 88, text="●", font="Helvetica 32", anchor="w", fill=amarela)
 l4_icon = canvas.create_text(
     1809, 90, text="4", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l4 = tk.Label(layout, text="", anchor="se")
+label_l4.place(x=1680, y=80)  
 
 button_l5 = tk.Button(layout, text="Lilás", command=line5,
                       bg=lilás, fg="white", width=11)
@@ -186,6 +246,8 @@ linha5_lilas_icon = canvas.create_text(
     1800, 113, text="●", font="Helvetica 32", anchor="w", fill=lilás)
 l5_icon = canvas.create_text(
     1809, 115, text="5", font="Helvetica 10 bold", anchor="w", fill=branco)
+label_l5 = tk.Label(layout, text="", anchor="se")
+label_l5.place(x=1680, y=105)  
 
 button_l7 = tk.Button(layout, text="Rubi", command=line7,
                       bg=rubi, fg="white", width=11)
@@ -194,6 +256,8 @@ linha7_rubi_icon = canvas.create_text(
     1800, 138, text="●", font="Helvetica 32", anchor="w", fill=rubi)
 l7_icon = canvas.create_text(
     1809, 140, text="7", font="Helvetica 10 bold", anchor="w", fill=branco)
+label_l7 = tk.Label(layout, text="", anchor="se")
+label_l7.place(x=1680, y=130)  
 
 button_l8 = tk.Button(layout, text="Diamante", command=line8,
                       bg=diamante, fg="black", width=11)
@@ -202,6 +266,8 @@ linha8_diamante_icon = canvas.create_text(
     1800, 163, text="●", font="Helvetica 32", anchor="w", fill=diamante)
 l8_icon = canvas.create_text(
     1809, 165, text="8", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l8 = tk.Label(layout, text="", anchor="se")
+label_l8.place(x=1680, y=155)  
 
 button_l9 = tk.Button(layout, text="Esmeralda",
                       command=line9, bg=esmeralda, fg="black", width=11)
@@ -210,6 +276,8 @@ linha9_esmeralda_icon = canvas.create_text(
     1800, 188, text="●", font="Helvetica 32", anchor="w", fill=esmeralda)
 l9_icon = canvas.create_text(
     1809, 190, text="9", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l9 = tk.Label(layout, text="", anchor="se")
+label_l9.place(x=1680, y=180)  
 
 button_l10 = tk.Button(layout, text="Turquesa",
                        command=line10, bg=turquesa, fg="black", width=11)
@@ -218,6 +286,8 @@ linha10_turquesa_icon = canvas.create_text(
     1800, 213, text="●", font="Helvetica 32", anchor="w", fill=turquesa)
 l10_icon = canvas.create_text(
     1806, 215, text="10", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l10 = tk.Label(layout, text="", anchor="se")
+label_l10.place(x=1680, y=205)  
 
 button_l11 = tk.Button(layout, text="Coral", command=line11,
                        bg=coral, fg="black", width=11)
@@ -226,6 +296,8 @@ linha11_coral_icon = canvas.create_text(
     1800, 238, text="●", font="Helvetica 32", anchor="w", fill=coral)
 l11_icon = canvas.create_text(
     1806, 240, text="11", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l11 = tk.Label(layout, text="", anchor="se")
+label_l11.place(x=1680, y=230)  
 
 button_l12 = tk.Button(layout, text="Safira",
                        command=line12, bg=safira, fg="white", width=11)
@@ -234,6 +306,8 @@ linha12_safira_icon = canvas.create_text(
     1800, 263, text="●", font="Helvetica 32", anchor="w", fill=safira)
 l12_icon = canvas.create_text(
     1806, 265, text="12", font="Helvetica 10 bold", anchor="w", fill=branco)
+label_l12 = tk.Label(layout, text="", anchor="se")
+label_l12.place(x=1680, y=255)  
 
 button_l13 = tk.Button(layout, text="Jade", command=line13,
                        bg=jade, fg="black", width=11)
@@ -242,6 +316,8 @@ linha13_jade_icon = canvas.create_text(
     1800, 288, text="●", font="Helvetica 32", anchor="w", fill=jade)
 l13_icon = canvas.create_text(
     1806, 290, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l13 = tk.Label(layout, text="", anchor="se")
+label_l13.place(x=1680, y=280)  
 
 button_l15 = tk.Button(layout, text="Prata", command=line15,
                        bg=prata, fg="black", width=11)
@@ -250,6 +326,8 @@ linha15_prata_icon = canvas.create_text(
     1800, 313, text="●", font="Helvetica 32", anchor="w", fill=prata)
 l15_icon = canvas.create_text(
     1806, 315, text="15", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l15 = tk.Label(layout, text="", anchor="se")
+label_l15.place(x=1680, y=305)  
 
 button_guararema = tk.Button(
     layout, text="Guararema", command=guararema, bg="#f8e71c", fg="black", width=11)
@@ -258,6 +336,9 @@ button_guararema.place(x=1830, y=330)
 button_pirapora = tk.Button(
     layout, text="Pirapora", command=pirapora, bg="#7ed321", fg="black", width=11)
 button_pirapora.place(x=1830, y=355)
+
+# Chame a função para inicializar os textos ao iniciar o programa
+atualizar_status()
 
 while True:
     canvas.itemconfigure(temperatura, text=get_weather())

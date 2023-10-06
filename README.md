@@ -48,6 +48,7 @@ pip install datetime
 pip install threading
 pip install pyproj
 pip install pymupdf
+pip install selenium
 ```
 
 ## Linguagens e IDE Utilizadas
@@ -63,6 +64,7 @@ Todos os dados utilizados nesse projeto são abertos e alimentados pela comunida
 - [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
 - [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
 - [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
+- [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
   
 ## Como Executar
 

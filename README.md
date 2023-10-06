@@ -1,5 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo usando Python (Folium-Tkinter)
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.5-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-06/10/2023-blue.svg)
 
 <img src="https://github.com/Rafabs/Sampa-4-u/blob/main/Mapa%20dos%20Trilhos/Imgs/SP4U_LOGO.jpg" alt="Logo" width="75"/>
 

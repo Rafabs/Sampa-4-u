@@ -97,7 +97,7 @@ frame_mapas.place(relx=0.5, rely=0, anchor=tk.N)
 
 # Botões do frame (Mapas)
 map_transp_button = tk.Button(
-    frame_mapas, text="Acessar Mapa", command=mapa_global, fg="#ffffff", bg="#442fff")
+    frame_mapas, text="Acessar Mapa", command=mapa_global, fg="black", bg="#C0C0C0")
 map_transp_button.pack(pady=5, fill='both', expand=True)
 
 # Criando o frame (Sistemas)
@@ -126,11 +126,11 @@ frame_guia_metro = ttk.LabelFrame(
 frame_guia_metro.place(relx=0.5, rely=0.225, anchor=tk.N)
 
 guia_pt_metro_button = tk.Button(
-    frame_guia_metro, text="Guia do Usuário - PT/BR", command=guia_pt_metro, fg="black", bg="#00B352")
+    frame_guia_metro, text="Guia do Usuário - PT/BR", command=guia_pt_metro, fg="black", bg="#0455A1")
 guia_pt_metro_button.pack(pady=5, fill='both', expand=True)
 
 guia_en_metro_button = tk.Button(
-    frame_guia_metro, text="Guia do Usuário - EN/US", command=guia_en_metro, fg="black", bg="#00B352")
+    frame_guia_metro, text="Guia do Usuário - EN/US", command=guia_en_metro, fg="black", bg="#0455A1")
 guia_en_metro_button.pack(pady=5, fill='both', expand=True)
 
 # Criando o frame (Guia de Usuário - CPTM)
@@ -139,11 +139,11 @@ frame_guia_cptm = ttk.LabelFrame(
 frame_guia_cptm.place(relx=0.5, rely=0.325, anchor=tk.N)
 
 guia_pt_metro_button = tk.Button(
-    frame_guia_cptm, text="Guia do Usuário - CPTM", command=guia_cptm, fg="black", bg="#ff2f2f")
+    frame_guia_cptm, text="Guia do Usuário - CPTM", command=guia_cptm, fg="black", bg="#CA016B")
 guia_pt_metro_button.pack(pady=5, fill='both', expand=True)
 
 guia_en_metro_button = tk.Button(
-    frame_guia_cptm, text="Guia do Usuário - Expresso Turístico", command=guia_cptm_expresso_turistico, fg="black", bg="#ff2f2f")
+    frame_guia_cptm, text="Guia do Usuário - Expresso Turístico", command=guia_cptm_expresso_turistico, fg="black", bg="#CA016B")
 guia_en_metro_button.pack(pady=5, fill='both', expand=True)
 
 # Botão para abrir o mapa da malha ferroviária e de corredores de ônibus

@@ -58,7 +58,7 @@ pip install selenium
 
 ## Fonte de dados
 
-Todos os dados utilizados nesse projeto são abertos e alimentados pela comunidade, são eles:
+Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentados pela comunidade, são eles:
 - [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
 - [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
 - [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
@@ -99,7 +99,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/Sampa-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
 
 ## To Do
-- [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```
+- [ ] ```Em desenvolvimento - Sem Previsão``` Inserir dados da Qualidade do Ar no Mapa
+- [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```
 - [ ] Atualizar diagrama
 
 ## Contribuição

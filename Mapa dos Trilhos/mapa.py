@@ -7,6 +7,7 @@ from datetime import datetime
 import csv
 from pyproj import Transformer
 import os
+import requests
 
 def mapa_global():
     # Coordenadas do centro de São Paulo
@@ -183,6 +184,77 @@ def mapa_global():
                     )
                 ).add_to(ciclovias_group)
 
+    def adicionar_qualidade_ar():
+        # Mapeamento de ícones
+        icone_mapping = {
+            "N1": "Mapa dos Trilhos\\Icons\\N1 - Boa.png",
+            "N2": "Mapa dos Trilhos\\Icons\\N2 - Moderada.png",
+            "N3": "Mapa dos Trilhos\\Icons\\N3 - Ruim.png",
+            "N4": "Mapa dos Trilhos\\Icons\\N4 - Muito Ruim.png",
+            "N5": "Mapa dos Trilhos\\Icons\\N5 - Péssima.png",
+        }
+
+        # Mapeamento de classificações
+        classificacao_mapping = {
+            "N1": "Boa",
+            "N2": "Moderada",
+            "N3": "Ruim",
+            "N4": "Muito Ruim",
+            "N5": "Péssima",
+        }
+
+        # Carrega o arquivo JSON
+        with open('Mapa dos Trilhos\\Data\\dados_estacoes_medicoes.json', 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        # Cria um mapa
+        m = folium.Map(location=[-23.5505205, -46.6333083], zoom_start=10)
+
+        # Itera sobre os dados
+        for local, info in data['base_medicoes'].items():
+            lat, lon = info['latitude'], info['longitude']
+            estacao = local
+            endereco = info['endereco']
+
+            # Obtém a qualidade do ar para a estação atual
+            latitude, longitude = info['latitude'], info['longitude']
+            response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6")
+            air_quality_data = response.json()
+
+            # Função para obter a classificação com base no índice
+            def obter_classificacao(indice):
+                if indice <= 40:
+                    return "N1"
+                elif 41 <= indice <= 80:
+                    return "N2"
+                elif 81 <= indice <= 120:
+                    return "N3"
+                elif 121 <= indice <= 200:
+                    return "N4"
+                else:
+                    return "N5"
+
+            # Obtém o índice de qualidade do ar
+            indice = air_quality_data['data']['aqi']
+        
+            # Obtém a classificação correspondente
+            classificacao = obter_classificacao(indice)
+
+            # Obtém o ícone correspondente com base na classificação
+            icone = icone_mapping[classificacao]
+
+            # Adiciona marcador com o índice e classificação como popup
+            folium.Marker([lat, lon], 
+                icon=folium.CustomIcon(icon_image=icone, icon_size=(30,30)),
+                popup=folium.Popup(
+                    f"<b>Estação: </b>{estacao}<br>"
+                    f"<b>Endereço: </b>{endereco}<br>"
+                    f"<b>Índice: </b>{indice}<br>"
+                    f"<b>Qualidade do Ar: </b>{classificacao_mapping[classificacao]}<br>",
+                    max_width=300
+                )
+            ).add_to(ar_group)
+            
     def od2007(mapa, od2007_group):
         # Carrega o arquivo JSON
         with open('Mapa dos Trilhos\\Data\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
@@ -280,6 +352,7 @@ def mapa_global():
     mapa_trilhos_group = folium.FeatureGroup(name='Mapa dos Trilhos e Corredor Exclusivo SPTRANS/EMTU', show=False)
     bicicletarios_group = folium.FeatureGroup(name='Bicicletários', show=False)
     ciclovias_group = folium.FeatureGroup(name='Ciclovias', show=False)
+    ar_group = folium.FeatureGroup(name='Qualidade do Ar', show=False)
     od2007_group = folium.FeatureGroup(name='Origem e Destino - 2007', show=False)
     od2017_group = folium.FeatureGroup(name='Origem e Destino - 2017', show=False)
 
@@ -316,6 +389,8 @@ def mapa_global():
     # Adiciona ciclovias ao mapa
     adicionar_ciclovias_no_mapa(m, ciclovias_group)
 
+    adicionar_qualidade_ar(m, ar_group)
+    
     od2007(m, od2007_group)
     od2017(m, od2017_group)
 
@@ -325,6 +400,7 @@ def mapa_global():
     mapa_trilhos_group.add_to(m)
     bicicletarios_group.add_to(m)
     ciclovias_group.add_to(m)
+    ar_group.add_to(m)
     od2007_group.add_to(m)
     od2017_group.add_to(m)
 

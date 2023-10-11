@@ -65,7 +65,8 @@ Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentado
 - [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
 - [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
 - [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
-  
+- [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
+
 ## Como Executar
 
 Para executar qualquer um dos scripts e visualizar o mapa da linha correspondente, siga estas etapas, dependendo do seu sistema operacional:

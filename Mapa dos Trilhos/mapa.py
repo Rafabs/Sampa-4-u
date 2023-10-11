@@ -184,7 +184,7 @@ def mapa_global():
                     )
                 ).add_to(ciclovias_group)
 
-    def adicionar_qualidade_ar():
+    def adicionar_qualidade_ar(mapa, ar_group):
         # Mapeamento de ícones
         icone_mapping = {
             "N1": "Mapa dos Trilhos\\Icons\\N1 - Boa.png",

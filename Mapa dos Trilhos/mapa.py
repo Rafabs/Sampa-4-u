@@ -8,6 +8,7 @@ import csv
 from pyproj import Transformer
 import os
 import requests
+from datetime import datetime, timedelta
 
 def mapa_global():
     # Coordenadas do centro de São Paulo
@@ -437,7 +438,19 @@ def mapa_global():
     map_file = "Mapa dos Trilhos\\mapa_global.html"
 
     # Verifica se o arquivo já existe
-    if not os.path.exists(map_file):
+    if os.path.exists(map_file):
+        # Obtém as informações de tempo do arquivo
+        tempo_modificacao = datetime.fromtimestamp(os.path.getmtime(map_file))
+        tempo_atual = datetime.now()
+
+        # Calcula a diferença de tempo
+        diferenca_tempo = tempo_atual - tempo_modificacao
+
+        # Se o arquivo foi criado a mais de 1 hora, gera um novo mapa
+        if diferenca_tempo > timedelta(hours=1):
+            # Salva o mapa como HTML
+            salvar_mapa_como_html(m, map_file)
+    else:
         # Salva o mapa como HTML
         salvar_mapa_como_html(m, map_file)
 

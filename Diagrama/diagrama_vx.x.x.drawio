@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-        <mxGraphModel dx="3895" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2439" pageHeight="1700" background="none" math="0" shadow="0">
+        <mxGraphModel dx="5446" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2439" pageHeight="1700" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -108,11 +108,12 @@
                 <mxCell id="154" value="btn - Guia do Usuário - Expresso Turístico" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
                     <mxGeometry y="660" width="240" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="DLEIIGMAwjSktPikzDus-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.031;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-5" target="DLEIIGMAwjSktPikzDus-117" edge="1">
+                <mxCell id="DLEIIGMAwjSktPikzDus-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.015;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#ffffff;" parent="1" source="DLEIIGMAwjSktPikzDus-5" target="DLEIIGMAwjSktPikzDus-117" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1670" y="126"/>
-                            <mxPoint x="1670" y="1335"/>
+                            <mxPoint x="1670" y="1000"/>
+                            <mxPoint x="1722" y="1000"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -153,7 +154,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="DLEIIGMAwjSktPikzDus-112" value="Mapa dos Trilhos\\Data" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry y="301" width="274" height="364" as="geometry">
+                    <mxGeometry y="301" width="274" height="390" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -196,11 +197,14 @@
                 <mxCell id="150" value="Regulamento de Viagem Expresso Turístico.pdf" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-112" vertex="1">
                     <mxGeometry y="338" width="274" height="26" as="geometry"/>
                 </mxCell>
+                <mxCell id="204" value="dados_estacoes_medicoes.json" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-112">
+                    <mxGeometry y="364" width="274" height="26" as="geometry"/>
+                </mxCell>
                 <mxCell id="101" style="edgeStyle=none;html=1;entryX=-0.011;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.015;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;strokeColor=#FFFFFF;" parent="1" source="DLEIIGMAwjSktPikzDus-117" target="DLEIIGMAwjSktPikzDus-142" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="DLEIIGMAwjSktPikzDus-117" value="Mapa dos Trilhos\\Icons" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry x="1722" y="1048" width="200" height="572" as="geometry">
+                    <mxGeometry x="1722" y="990" width="200" height="702" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -267,8 +271,23 @@
                 <mxCell id="203" value="Mapa dos Trlhos\\Icons\\svg" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-117" vertex="1">
                     <mxGeometry y="546" width="200" height="26" as="geometry"/>
                 </mxCell>
+                <mxCell id="205" value="N1 - Boa.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                    <mxGeometry y="572" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="N2 - Moderada.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                    <mxGeometry y="598" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="N3 - Ruim.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                    <mxGeometry y="624" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="N4 - Muito Ruim.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                    <mxGeometry y="650" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="N5 - Péssima.png" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="DLEIIGMAwjSktPikzDus-117">
+                    <mxGeometry y="676" width="200" height="26" as="geometry"/>
+                </mxCell>
                 <mxCell id="DLEIIGMAwjSktPikzDus-137" value="Mapa dos Trlhos\\Icons\\svg" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry x="1986" y="1594" width="240" height="104" as="geometry">
+                    <mxGeometry x="1986" y="1536" width="240" height="104" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -288,7 +307,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="DLEIIGMAwjSktPikzDus-142" value="Mapa dos Trlhos\\Imgs" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry x="1986" y="1052" width="190" height="212" as="geometry">
+                    <mxGeometry x="1986" y="999" width="190" height="212" as="geometry">
                         <mxRectangle x="2014" y="1320" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -518,13 +537,14 @@
                 <mxCell id="DLEIIGMAwjSktPikzDus-180" value="Código para plotagem do mapa da Linha do Trem de Guararema" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="DLEIIGMAwjSktPikzDus-179" vertex="1">
                     <mxGeometry y="26" width="532.18" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="DLEIIGMAwjSktPikzDus-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;strokeColor=#ffffff;exitX=1.002;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="DLEIIGMAwjSktPikzDus-182" target="DLEIIGMAwjSktPikzDus-117" edge="1">
+                <mxCell id="DLEIIGMAwjSktPikzDus-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;strokeColor=#ffffff;exitX=1.002;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DLEIIGMAwjSktPikzDus-182" target="DLEIIGMAwjSktPikzDus-117" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1270" y="945.5" as="sourcePoint"/>
                         <mxPoint x="1598" y="520.0079999999999" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="1670" y="951"/>
-                            <mxPoint x="1670" y="1335"/>
+                            <mxPoint x="1670" y="1000"/>
+                            <mxPoint x="1722" y="1000"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -855,13 +875,13 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="340" y="320" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="300" y="697"/>
+                            <mxPoint x="300" y="724"/>
                             <mxPoint x="300" y="330"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Mapa dos Trilhos\\temperatura.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry y="669" width="274" height="56" as="geometry">
+                    <mxGeometry y="696" width="274" height="56" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -871,13 +891,13 @@
                 <mxCell id="10" style="edgeStyle=none;html=1;entryX=-0.004;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="8" target="78961159f06e98e8-17" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="300" y="757"/>
+                            <mxPoint x="300" y="780"/>
                             <mxPoint x="300" y="324"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="8" value="Mapa dos Trilhos\\mapa.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry y="729" width="274" height="56" as="geometry">
+                    <mxGeometry y="756" width="274" height="56" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -887,13 +907,13 @@
                 <mxCell id="13" style="edgeStyle=none;html=1;entryX=0;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="11" target="78961159f06e98e8-17" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="300" y="817"/>
+                            <mxPoint x="300" y="844"/>
                             <mxPoint x="300" y="324"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="Mapa dos Trilhos\\cet.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry y="789" width="274" height="56" as="geometry">
+                    <mxGeometry y="816" width="274" height="56" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -1039,13 +1059,13 @@
                 <mxCell id="84" style="edgeStyle=none;html=1;entryX=0;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="82" target="78961159f06e98e8-17" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="300" y="877"/>
+                            <mxPoint x="300" y="900"/>
                             <mxPoint x="300" y="324"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="82" value="Mapa dos Trilhos\\gfts.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry y="849" width="274" height="56" as="geometry">
+                    <mxGeometry y="876" width="274" height="56" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -1054,15 +1074,15 @@
                 </mxCell>
                 <mxCell id="96" style="edgeStyle=none;html=1;exitX=0;exitY=0.049;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="85" target="82" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="30" y="711" as="targetPoint"/>
+                        <mxPoint x="30" y="738" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="-30" y="922"/>
-                            <mxPoint x="-30" y="863"/>
+                            <mxPoint x="-30" y="949"/>
+                            <mxPoint x="-30" y="890"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="85" value="Mapa dos Trilhos\\Gtfs" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry y="909" width="274" height="260" as="geometry">
+                    <mxGeometry y="936" width="274" height="260" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -1094,7 +1114,7 @@
                     <mxGeometry y="234" width="274" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="102" value="Mapa dos Trlhos\\Favicon" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry x="2240" y="1048" width="190" height="364" as="geometry">
+                    <mxGeometry x="2240" y="996" width="190" height="364" as="geometry">
                         <mxRectangle x="2014" y="1320" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>

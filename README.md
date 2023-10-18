@@ -61,8 +61,10 @@ pip install selenium
 Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentados pela comunidade, são eles:
 - [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
 - [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
+- [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
 - [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
 - [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
+- [METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
 - [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
 - [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
 - [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
@@ -98,9 +100,11 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/Sampa-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
 
 ## To Do
-- [x] Inserir dados da Qualidade do Ar no Mapa
-- [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```
-- [ ] Atualizar diagrama
+- [x] Inserir dados da Qualidade do Ar no Mapa.
+- [ ] ```Em desenvolvimento - Sem Previsão``` Inserir dados do GTFS da EMTU (Inserir os Pontos no Mapa e criar uma janela com os dados de linhas e tarifas).
+- [ ] Inserir dados do Programa Origem e Destino (1977, 1987 e 1997) no mapa.
+- [ ] Atualizar diagrama.
+- [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 
 ## Contribuição
 

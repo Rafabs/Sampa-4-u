@@ -69,8 +69,6 @@ Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentado
 
 ## Como Executar
 
-Para executar qualquer um dos scripts e visualizar o mapa da linha correspondente, siga estas etapas, dependendo do seu sistema operacional:
-
 #### No Windows:
 
 1. Abra o prompt de comando.

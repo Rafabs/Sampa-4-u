@@ -108,7 +108,7 @@ def mapa_global():
         for shape_id, coordenadas in shapes.items():
             folium.PolyLine(coordenadas, color='blue').add_to(grupo)
 
-    def adicionar_paradas_no_mapa(mapa, paradas_group):
+    def adicionar_paradas_no_mapa(mapa, paradas_sptrans_group):
         caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs\\stops.txt"
         dados_paradas = []
 
@@ -138,7 +138,7 @@ def mapa_global():
                     location=[stop_lat, stop_lon],
                     popup=folium.Popup(f"<b>ID: </b>{stop_id}<br><b>Localização: </b>{stop_name}<br><b>Descrição/Referência: </b>{stop_desc}", max_width=300),
                     icon=icone_personalizado
-                ).add_to(paradas_group)
+                ).add_to(paradas_sptrans_group)
 
     def adicionar_bicicletarios_no_mapa(mapa, bicicletarios_group):
         bicicletarios_geojson = 'Mapa dos Trilhos\\Data\\LL_WGS84_KMZ_bicicletarioparaciclo.geojson'
@@ -255,7 +255,111 @@ def mapa_global():
                     max_width=300
                 )
             ).add_to(ar_group)
-            
+
+    def od1987(mapa, od1987_group):
+        # Carrega o arquivo JSON
+        with open('Mapa dos Trilhos\\Data\\ZonasOD87_region.json', 'r', encoding='utf-8') as f:
+            seus_dados = json.load(f)
+
+        # Define o transformer para converter de UTM para WGS84
+        transformer = Transformer.from_crs("epsg:31983", "epsg:4326")
+
+        # Adiciona as features do JSON ao mapa
+        for feature in seus_dados['features']:
+            if feature['geometry']['type'] == 'Polygon':
+                coordinates = feature['geometry']['coordinates'][0]
+
+                # Transforma as coordenadas para o sistema WGS84
+                coordinates_wgs84 = [transformer.transform(coord[0], coord[1]) for coord in coordinates]
+
+                # Calcula o centro do polígono para definir o local do pop-up
+                lat = sum(coord[1] for coord in coordinates_wgs84) / len(coordinates_wgs84)
+                lon = sum(coord[0] for coord in coordinates_wgs84) / len(coordinates_wgs84)
+
+                # Pega as propriedades do polígono
+                properties = feature['properties']
+
+                # Adiciona a linha ao mapa como um objeto PolyLine
+                folium.PolyLine(
+                    locations=coordinates_wgs84,
+                    color='blue',
+                    fill=True,
+                    fill_color='blue',            
+                    weight=1,
+                    popup=folium.Popup(f"<b>Id:</b> {properties['ZONA']}<br>"
+                        f"<b>Nome</b> {properties['NOME']}<br>"    
+                        f"<b>Área</b> {properties['AREA']} km²<br>"           
+                        f"<b>Ano:</b> {'1987'}<br>",
+                    max_width=300),
+                ).add_to(od1987_group)
+
+    def od1997(mapa, od1997_group):
+        # Carrega o arquivo JSON
+        with open('Mapa dos Trilhos\\Data\\zonas97_region.json', 'r', encoding='utf-8') as f:
+            seus_dados = json.load(f)
+
+        # Define o transformer para converter de UTM para WGS84
+        transformer = Transformer.from_crs("epsg:31983", "epsg:4326")
+
+        # Adiciona as features do JSON ao mapa
+        for feature in seus_dados['features']:
+            if feature['geometry']['type'] == 'Polygon':
+                coordinates = feature['geometry']['coordinates'][0]
+
+                # Transforma as coordenadas para o sistema WGS84
+                coordinates_wgs84 = [transformer.transform(coord[0], coord[1]) for coord in coordinates]
+
+                # Calcula o centro do polígono para definir o local do pop-up
+                lat = sum(coord[1] for coord in coordinates_wgs84) / len(coordinates_wgs84)
+                lon = sum(coord[0] for coord in coordinates_wgs84) / len(coordinates_wgs84)
+
+                # Pega as propriedades do polígono
+                properties = feature['properties']
+
+                # Calcula a área em quilômetros quadrados
+                area_km2 = float(properties['TOTAL_HA']) / 1
+
+                popup_info = f"<b>Id:</b> {properties['ZONASEQ']}<br>" \
+                            f"<b>Nome:</b> {properties['NOME_ZONA']}<br>" \
+                            f"<b>Área:</b> {area_km2:.2f} km²<br>" \
+                            f"<b>Ano:</b> {'1997'}<br>" \
+                            f"<b>Nº do Distrito:</b> {properties['DISTRITOS']}<br>" \
+                            f"<b>Nº do Munícipio:</b> {properties['MUNICípIO']}<br>" \
+                            f"<b>Nº de Domícílios:</b> {properties['DOMICILIOS']:,}<br>" \
+                            f"<b>Nº de Famílias:</b> {properties['FAMILIAS']:,}<br>" \
+                            f"<b>População:</b> {properties['POPULAçãO']:,}<br>" \
+                            f"<b>Matrícula Escolares:</b> {properties['MATRICULAS']:,}<br>" \
+                            f"<b>Total Empregos:</b> {properties['EMPREGOS']:,}<br>" \
+                            f"<b>Viagens Diárias por ÔNIBUS:</b> {properties['ONIBUS']:,}<br>" \
+                            f"<b>Viagens Diárias por FRETADO:</b> {properties['FRETADO']:,}<br>" \
+                            f"<b>Viagens Diárias por ESCOLAR:</b> {properties['ESCOLAR']:,}<br>" \
+                            f"<b>Viagens Diárias por DIRIGINDO AUTOMÓVEL:</b> {properties['DIRIG_AUTO']:,}<br>" \
+                            f"<b>Viagens Diárias por PASSAGEIRO AUTOMÓVEL:</b> {properties['PASS_AUTO']:,}<br>" \
+                            f"<b>Viagens Diárias por TÁXI:</b> {properties['TAXI']:,}<br>" \
+                            f"<b>Viagens Diárias por LOTAÇÃO:</b> {properties['LOTAçãO']:,}<br>" \
+                            f"<b>Viagens Diárias por METRÔ:</b> {properties['METRO']:,}<br>" \
+                            f"<b>Viagens Diárias por TREM:</b> {properties['TREM']:,}<br>" \
+                            f"<b>Viagens Diárias por MOTO:</b> {properties['MOTO']:,}<br>" \
+                            f"<b>Viagens Diárias por BICICLETA:</b> {properties['BICICLETA']:,}<br>" \
+                            f"<b>Viagens Diárias A PÉ:</b> {properties['A_PE']:,}<br>" \
+                            f"<b>Viagens para COMPRAS:</b> {properties['COMPRAS']:,}<br>" \
+                            f"<b>Viagens para SAÚDE:</b> {properties['SAúdE']:,}<br>" \
+                            f"<b>Viagens para LAZER:</b> {properties['LAZER']:,}<br>" \
+                            f"<b>Viagens para RESIDÊNCIA:</b> {properties['RESIDênCIA']:,}<br>" \
+                            f"<b>Viagens para OUTROS:</b> {properties['OUTROS0']:,}<br>" \
+                            f"<b>Renda Familiar:</b> R$ {properties['RENDA_FAM']:.2f}<br>" \
+                            f"<b>Renda PerCapita:</b> R$ {properties['PER_CAPITA']:.2f}<br>" \
+                            f"<b>Viagens Diárias Totais:</b> {properties['PRODUZIDAS']:,}<br>" 
+
+                folium.PolyLine(
+                    locations=coordinates_wgs84,
+                    color='blue',
+                    fill=True,
+                    fill_color='blue',
+                    weight=1,
+                    popup=folium.Popup(popup_info, max_width=300),
+                ).add_to(od1997_group)
+
     def od2007(mapa, od2007_group):
         # Carrega o arquivo JSON
         with open('Mapa dos Trilhos\\Data\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
@@ -348,17 +452,21 @@ def mapa_global():
     m = criar_mapa(latitude, longitude, zoom=13)
 
     # Cria grupos para as camadas
-    paradas_group = folium.FeatureGroup(name='Pontos', show=False)
+    paradas_sptrans_group = folium.FeatureGroup(name='Paradas de Ônibus - SPTrans', show=False)
+    paradas_emtu_group = folium.FeatureGroup(name='Paradas de Ônibus - EMTU', show=False)
     area_atendida_group = folium.FeatureGroup(name='Área Atendida - SPTrans', show=False)
     mapa_trilhos_group = folium.FeatureGroup(name='Mapa dos Trilhos e Corredor Exclusivo SPTRANS/EMTU', show=False)
     bicicletarios_group = folium.FeatureGroup(name='Bicicletários', show=False)
     ciclovias_group = folium.FeatureGroup(name='Ciclovias', show=False)
     ar_group = folium.FeatureGroup(name='Qualidade do Ar', show=False)
+    od1987_group = folium.FeatureGroup(name='Origem e Destino - 1987', show=False)
+    od1997_group = folium.FeatureGroup(name='Origem e Destino - 1997', show=False)
     od2007_group = folium.FeatureGroup(name='Origem e Destino - 2007', show=False)
     od2017_group = folium.FeatureGroup(name='Origem e Destino - 2017', show=False)
 
     # Cria o grupo de marcadores
-    paradas_group = MarkerCluster(name='Pontos').add_to(m)
+    paradas_sptrans_group = MarkerCluster(name='Paradas de Ônibus - SPTrans', show=False).add_to(m)
+    paradas_emtu_group = MarkerCluster(name='Paradas de Ônibus - EMTU', show=False).add_to(m)
 
     # Carrega os dados necessários
     cores_linhas = carregar_dados_arquivo('Mapa dos Trilhos\\Data\\sao-paulo_lines_systems_and_modes.json')
@@ -382,7 +490,7 @@ def mapa_global():
     adicionar_shapes_no_mapa(m, area_atendida_group)
 
     # Adiciona paradas ao mapa
-    adicionar_paradas_no_mapa(m, paradas_group)
+    adicionar_paradas_no_mapa(m, paradas_sptrans_group)
 
     # Adiciona bicicletários ao mapa
     adicionar_bicicletarios_no_mapa(m, bicicletarios_group)
@@ -391,17 +499,21 @@ def mapa_global():
     adicionar_ciclovias_no_mapa(m, ciclovias_group)
 
     adicionar_qualidade_ar(m, ar_group)
-    
+
+    od1987(m, od1987_group)
+    od1997(m, od1997_group)
     od2007(m, od2007_group)
     od2017(m, od2017_group)
 
     # Adiciona os grupos de camadas ao mapa
-    paradas_group.add_to(m)
+    paradas_sptrans_group.add_to(m)
     area_atendida_group.add_to(m)
     mapa_trilhos_group.add_to(m)
     bicicletarios_group.add_to(m)
     ciclovias_group.add_to(m)
     ar_group.add_to(m)
+    od1987_group.add_to(m)
+    od1997_group.add_to(m)
     od2007_group.add_to(m)
     od2017_group.add_to(m)
 

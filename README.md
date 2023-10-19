@@ -59,15 +59,15 @@ pip install selenium
 ## Fonte de dados
 
 Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentados pela comunidade, são eles:
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-grey-dark.svg) [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
-![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
+- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
 
 ## Como Executar
 

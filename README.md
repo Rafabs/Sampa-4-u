@@ -101,9 +101,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do
 - [x] Inserir dados da Qualidade do Ar no Mapa.
+- [x] Inserir dados do Programa Origem e Destino (1977, 1987 e 1997) no mapa.
 - [ ] ```Em desenvolvimento - Sem Previsão``` Inserir dados do GTFS da EMTU (Inserir os Pontos no Mapa e criar uma janela com os dados de linhas e tarifas).
-- [ ] Inserir dados do Programa Origem e Destino (1977, 1987 e 1997) no mapa.
-- [ ] Atualizar diagrama.
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 
 ## Contribuição

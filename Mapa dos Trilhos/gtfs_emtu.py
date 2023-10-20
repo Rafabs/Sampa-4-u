@@ -7,14 +7,14 @@ import folium
 from folium.plugins import MarkerCluster
 from PIL import Image, ImageTk
 
-def sptrans():
+def emtu():
     # Criando a janela
     root = tk.Toplevel()
-    root.title("Consulta de Rotas SPTrans")
+    root.title("Consulta de Rotas EMTU")
     root.geometry("1920x1080")
 
     # Carrega a imagem usando o PIL
-    image = Image.open('Mapa dos Trilhos\\Favicon\\onibus_sptrans.ico')
+    image = Image.open('Mapa dos Trilhos\\Favicon\\onibus_EMTU.ico')
     photo = ImageTk.PhotoImage(image)
 
     # Define o ícone
@@ -22,10 +22,10 @@ def sptrans():
 
     def exibir_rotas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\routes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa dos Trilhos\\Gtfs_EMTU\\routes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
-                rotas = [f"{linha[2]} - {linha[3]}\n" for linha in leitor]
+                rotas = [f"{linha[1]} - {linha[2]}\n" for linha in leitor]
                 resultado_text.insert(tk.END, "".join(rotas))
                 return rotas
         except FileNotFoundError:
@@ -35,12 +35,21 @@ def sptrans():
 
     def exibir_tarifas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa dos Trilhos\\Gtfs_EMTU\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
+                linhas = []
                 for linha in leitor:
                     nome = linha[0]
-                    tarifa = f'R$ {float(linha[1]):.2f}'
+                    tarifa = float(linha[1])
+                    linhas.append((nome, tarifa))
+
+                # Ordenar a lista de linhas com base na tarifa
+                linhas_ordenadas = sorted(linhas, key=lambda x: x[0])
+
+                for linha in linhas_ordenadas:
+                    nome = linha[0]
+                    tarifa = f'R$ {linha[1]:.2f}'
                     tabela_tarifas.insert("", "end", values=(nome, tarifa))
         except FileNotFoundError:
             tabela_tarifas.insert("", "end", values=(
@@ -50,7 +59,7 @@ def sptrans():
         m = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
 
         shapes = {}
-        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_EMTU\\shapes.txt"
 
         with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
             linhas = arquivo_shapes.readlines()
@@ -76,7 +85,7 @@ def sptrans():
         n = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
         marker_cluster = MarkerCluster().add_to(n)
 
-        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_EMTU\\stops.txt"
         dados_paradas = []
 
         with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:
@@ -87,13 +96,13 @@ def sptrans():
                 dados_paradas.append(linha)
 
         for dados in dados_paradas:
-            stop_id, stop_name, stop_desc, stop_lat, stop_lon = dados
+            stop_id, stop_name, stop_lat, stop_lon = dados
             stop_lat = float(stop_lat)
             stop_lon = float(stop_lon)
 
             folium.Marker(
                 location=[stop_lat, stop_lon],
-                popup=folium.Popup(f"ID: {stop_id}<br>Localização: {stop_name}<br>Descrição/Referência: {stop_desc}",
+                popup=folium.Popup(f"ID: {stop_id}<br>Localização: {stop_name}",
                                    max_width=300),
 
             ).add_to(marker_cluster)
@@ -114,7 +123,7 @@ def sptrans():
     estilo.configure("TEntry", font=("Arial", 12))
 
     # Titulo
-    titulo_label = ttk.Label(root, text="Consulta de Rotas SPTrans")
+    titulo_label = ttk.Label(root, text="Consulta de Rotas EMTU")
     titulo_label.pack(pady=(20, 30))
 
     # Campo de Pesquisa
@@ -158,12 +167,17 @@ def sptrans():
 
     # Tabela de Tarifas
     tabela_tarifas = ttk.Treeview(frame_direito, columns=(
-        "Modalidade", "Tarifa"), show="headings")
-    tabela_tarifas.heading("Modalidade", text="Modalidade")
+        "Linha", "Tarifa"), show="headings")
+    tabela_tarifas.heading("Linha", text="Linha")
     tabela_tarifas.heading("Tarifa", text="Tarifa")
-    tabela_tarifas.column("Modalidade", width=150, anchor="w")
+    tabela_tarifas.column("Linha", width=150, anchor="w")
     tabela_tarifas.column("Tarifa", width=50, anchor="w")
 
+    # Adicionando a scrollbar vertical
+    scrollbar_vertical = ttk.Scrollbar(frame_direito, orient="vertical", command=tabela_tarifas.yview)
+    scrollbar_vertical.pack(side=tk.RIGHT, fill=tk.Y)
+    tabela_tarifas.configure(yscrollcommand=scrollbar_vertical.set)
+    
     # Definir a altura da tabela (por exemplo, 200 pixels)
     tabela_tarifas.config(height=200)
 
@@ -176,4 +190,4 @@ def sptrans():
 
 
 if __name__ == "__main__":
-    sptrans()
+    emtu()

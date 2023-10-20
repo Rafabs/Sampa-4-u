@@ -87,7 +87,7 @@ def mapa_global():
                 icon=folium.CustomIcon(icon_image=caminho_icone, icon_size=(25, 25))
             ).add_to(mapa_trilhos_group)
 
-    def adicionar_shapes_no_mapa(mapa, grupo):
+    def adicionar_shapes_sptrans(mapa, grupo):
         shapes = {}
         caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
 
@@ -106,9 +106,62 @@ def mapa_global():
                     shapes[shape_id].append((lat, lon))
 
         for shape_id, coordenadas in shapes.items():
-            folium.PolyLine(coordenadas, color='blue').add_to(grupo)
+            folium.PolyLine(coordenadas, color='red').add_to(grupo)
 
-    def adicionar_paradas_no_mapa(mapa, paradas_sptrans_group):
+    def adicionar_shapes_emtu(mapa, grupo_emtu):
+        shapes = {}
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_EMTU\\shapes.txt"
+
+        with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
+            linhas = arquivo_shapes.readlines()
+            for linha in linhas[1:]:
+                dados = linha.strip().split(',')
+                if len(dados) >= 4:
+                    shape_id = dados[0]
+                    lat = float(dados[1].strip('"'))
+                    lon = float(dados[2].strip('"'))
+
+                    if shape_id not in shapes:
+                        shapes[shape_id] = []
+
+                    shapes[shape_id].append((lat, lon))
+
+        for shape_id, coordenadas in shapes.items():
+            folium.PolyLine(coordenadas, color='blue').add_to(grupo_emtu)
+
+    def adicionar_pontos_emtu(mapa, paradas_emtu_group):
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_EMTU\\stops.txt"
+        dados_paradas = []
+
+        with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:
+            leitor_csv = csv.reader(arquivo_stops)
+            cabecalho = next(leitor_csv)
+
+            for linha in leitor_csv:
+                dados_paradas.append(linha)
+
+            for dados in dados_paradas:
+                stop_id, stop_name, stop_lat, stop_lon = dados
+                stop_lat = float(stop_lat)
+                stop_lon = float(stop_lon)
+
+                # Define o caminho do ícone personalizado
+                caminho_icone_personalizado = 'Mapa dos Trilhos\\Icons\\icone-terminais-pontos_emtu.png'
+
+                # Cria um ícone personalizado
+                icone_personalizado = folium.CustomIcon(
+                    icon_image=caminho_icone_personalizado,  # Substitua pelo caminho do seu ícone
+                    icon_size=(25, 25)  # Ajuste o tamanho do ícone conforme necessário
+                )
+
+                # Adiciona o marcador com o ícone personalizado
+                folium.Marker(
+                    location=[stop_lat, stop_lon],
+                    popup=folium.Popup(f"<b>ID: </b>{stop_id}<br><b>Localização: </b>{stop_name}", max_width=300),
+                    icon=icone_personalizado
+                ).add_to(paradas_emtu_group)
+
+    def adicionar_pontos_sptrans(mapa, paradas_sptrans_group):
         caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
         dados_paradas = []
 
@@ -125,7 +178,7 @@ def mapa_global():
                 stop_lon = float(stop_lon)
 
                 # Define o caminho do ícone personalizado
-                caminho_icone_personalizado = 'Mapa dos Trilhos\\Icons\\icone-terminais-pontos.png'
+                caminho_icone_personalizado = 'Mapa dos Trilhos\\Icons\\icone-terminais-pontos_sptrans.png'
 
                 # Cria um ícone personalizado
                 icone_personalizado = folium.CustomIcon(
@@ -282,9 +335,9 @@ def mapa_global():
                 # Adiciona a linha ao mapa como um objeto PolyLine
                 folium.PolyLine(
                     locations=coordinates_wgs84,
-                    color='blue',
+                    color='green',
                     fill=True,
-                    fill_color='blue',            
+                    fill_color='green',            
                     weight=1,
                     popup=folium.Popup(f"<b>Id:</b> {properties['ZONA']}<br>"
                         f"<b>Nome</b> {properties['NOME']}<br>"    
@@ -353,9 +406,9 @@ def mapa_global():
 
                 folium.PolyLine(
                     locations=coordinates_wgs84,
-                    color='blue',
+                    color='green',
                     fill=True,
-                    fill_color='blue',
+                    fill_color='green',
                     weight=1,
                     popup=folium.Popup(popup_info, max_width=300),
                 ).add_to(od1997_group)
@@ -389,9 +442,9 @@ def mapa_global():
                 # Adiciona a linha ao mapa como um objeto PolyLine
                 folium.PolyLine(
                     locations=coordinates_wgs84,
-                    color='blue',
+                    color='green',
                     fill=True,
-                    fill_color='blue',            
+                    fill_color='green',            
                     weight=1,
                     popup=folium.Popup(f"<b>Id:</b> {properties['od_id']}<br>"
                         f"<b>Nome</b> {properties['od_nome']}<br>"           
@@ -430,9 +483,9 @@ def mapa_global():
                 # Adiciona a linha ao mapa como um objeto PolyLine
                 folium.PolyLine(
                     locations=coordinates_wgs84,
-                    color='blue',
+                    color='green',
                     fill=True,
-                    fill_color='blue',            
+                    fill_color='green',            
                     weight=1,
                     popup=folium.Popup(f"<b>Id:</b> {properties['od_id']}<br>"
                         f"<b>Nome</b> {properties['od_nome']}<br>"           
@@ -454,7 +507,8 @@ def mapa_global():
     # Cria grupos para as camadas
     paradas_sptrans_group = folium.FeatureGroup(name='Paradas de Ônibus - SPTrans', show=False)
     paradas_emtu_group = folium.FeatureGroup(name='Paradas de Ônibus - EMTU', show=False)
-    area_atendida_group = folium.FeatureGroup(name='Área Atendida - SPTrans', show=False)
+    area_atendida_sptrans = folium.FeatureGroup(name='Área Atendida - SPTrans', show=False)
+    area_atendida_emtu = folium.FeatureGroup(name='Área Atendida - EMTU', show=False)
     mapa_trilhos_group = folium.FeatureGroup(name='Mapa dos Trilhos e Corredor Exclusivo SPTRANS/EMTU', show=False)
     bicicletarios_group = folium.FeatureGroup(name='Bicicletários', show=False)
     ciclovias_group = folium.FeatureGroup(name='Ciclovias', show=False)
@@ -487,10 +541,12 @@ def mapa_global():
     adicionar_estacoes_no_mapa(gdf_stations, caminho_icones, mapa_trilhos_group)
 
     # Adiciona shapes ao mapa
-    adicionar_shapes_no_mapa(m, area_atendida_group)
-
+    adicionar_shapes_sptrans(m, area_atendida_sptrans)
+    adicionar_shapes_emtu(m, area_atendida_emtu)
+    
     # Adiciona paradas ao mapa
-    adicionar_paradas_no_mapa(m, paradas_sptrans_group)
+    adicionar_pontos_sptrans(m, paradas_sptrans_group)
+    adicionar_pontos_emtu(m, paradas_emtu_group)
 
     # Adiciona bicicletários ao mapa
     adicionar_bicicletarios_no_mapa(m, bicicletarios_group)
@@ -507,7 +563,9 @@ def mapa_global():
 
     # Adiciona os grupos de camadas ao mapa
     paradas_sptrans_group.add_to(m)
-    area_atendida_group.add_to(m)
+    paradas_emtu_group.add_to(m)
+    area_atendida_sptrans.add_to(m)
+    area_atendida_emtu.add_to(m)
     mapa_trilhos_group.add_to(m)
     bicicletarios_group.add_to(m)
     ciclovias_group.add_to(m)

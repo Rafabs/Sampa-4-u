@@ -10,6 +10,7 @@ from guias import *
 from cet import transito
 from temperatura import get_weather
 from gtfs_sptrans import sptrans
+from gtfs_emtu import emtu
 from mapa import mapa_global
 from web import status
 from Metrô_SP_L1 import line1
@@ -155,10 +156,14 @@ sptrans_button = tk.Button(
     frame_sistemas, text="SPTRANS", command=sptrans, fg="black", bg="#ff2f2f")
 sptrans_button.pack(pady=5, fill='both', expand=True)
 
+emtu_button = tk.Button(
+    frame_sistemas, text="EMTU", command=emtu, fg="white", bg="#0409B9")
+emtu_button.pack(pady=5, fill='both', expand=True)
+
 # Criando o frame (Mapas da Rede)
 frame_mapa_guia = ttk.LabelFrame(
     layout, text="Mapa da Rede - /Fev.23", labelanchor='n')
-frame_mapa_guia.place(relx=0.5, rely=0.150, anchor=tk.N)
+frame_mapa_guia.place(relx=0.5, rely=0.175, anchor=tk.N)
 
 # Botões do frame (Mapas da Rede)
 mapa_rede_button = tk.Button(
@@ -168,7 +173,7 @@ mapa_rede_button.pack(pady=5, fill='both', expand=True)
 # Criando o frame (Guia de Usuário - Metrô)
 frame_guia_metro = ttk.LabelFrame(
     layout, text="Guia de Usuário - METRÔ", labelanchor='n')
-frame_guia_metro.place(relx=0.5, rely=0.225, anchor=tk.N)
+frame_guia_metro.place(relx=0.5, rely=0.245, anchor=tk.N)
 
 guia_pt_metro_button = tk.Button(
     frame_guia_metro, text="Guia do Usuário - PT/BR", command=guia_pt_metro, fg="black", bg="#0455A1")
@@ -181,7 +186,7 @@ guia_en_metro_button.pack(pady=5, fill='both', expand=True)
 # Criando o frame (Guia de Usuário - CPTM)
 frame_guia_cptm = ttk.LabelFrame(
     layout, text="Guia de Usuário - CPTM", labelanchor='n')
-frame_guia_cptm.place(relx=0.5, rely=0.325, anchor=tk.N)
+frame_guia_cptm.place(relx=0.5, rely=0.345, anchor=tk.N)
 
 guia_pt_metro_button = tk.Button(
     frame_guia_cptm, text="Guia do Usuário - CPTM", command=guia_cptm, fg="black", bg="#CA016B")

@@ -22,7 +22,7 @@ def sptrans():
 
     def exibir_rotas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs\\routes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\routes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
                 rotas = [f"{linha[2]} - {linha[3]}\n" for linha in leitor]
@@ -35,7 +35,7 @@ def sptrans():
 
     def exibir_tarifas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
                 for linha in leitor:
@@ -50,7 +50,7 @@ def sptrans():
         m = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
 
         shapes = {}
-        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs\\shapes.txt"
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
 
         with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
             linhas = arquivo_shapes.readlines()
@@ -76,7 +76,7 @@ def sptrans():
         n = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
         marker_cluster = MarkerCluster().add_to(n)
 
-        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs\\stops.txt"
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
         dados_paradas = []
 
         with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:

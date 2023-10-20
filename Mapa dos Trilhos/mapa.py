@@ -89,7 +89,7 @@ def mapa_global():
 
     def adicionar_shapes_no_mapa(mapa, grupo):
         shapes = {}
-        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs\\shapes.txt"
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
 
         with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
             linhas = arquivo_shapes.readlines()
@@ -109,7 +109,7 @@ def mapa_global():
             folium.PolyLine(coordenadas, color='blue').add_to(grupo)
 
     def adicionar_paradas_no_mapa(mapa, paradas_sptrans_group):
-        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs\\stops.txt"
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
         dados_paradas = []
 
         with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:

@@ -9,7 +9,7 @@ import tkinter as tk
 from guias import *
 from cet import transito
 from temperatura import get_weather
-from gtfs import sptrans
+from gtfs_sptrans import sptrans
 from mapa import mapa_global
 from web import status
 from Metrô_SP_L1 import line1

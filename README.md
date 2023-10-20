@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo usando Python (Folium-Tkinter)
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.5-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-11/10/2023-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-20/10/2023-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/Sampa-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -103,6 +103,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [x] Inserir dados da Qualidade do Ar no Mapa.
 - [x] Inserir dados do Programa Origem e Destino (1977, 1987 e 1997) no mapa.
 - [x] Inserir dados do GTFS da EMTU (Inserir os Pontos no Mapa e criar uma janela com os dados de linhas e tarifas).
+- [ ] Atualizar a data dos arquivos no README.md
+- [ ] Elaborar diagrama de blocos desse projeto
+- [ ] Desenvolver um arquivo html explicando todos os itens do projeto.
 - [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de horários previstos de chegada e saída no Mapa
 

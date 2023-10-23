@@ -10,7 +10,7 @@ Bem-vindo ao repositório de Sampa 4u! Neste repositório, você encontrará uma
 
 Este repositório foi criado com o objetivo de demonstrar como criar visualizações simples de mapas de linhas de metrô, trens e ônibus usando a biblioteca Tkinter. Cada script contido neste repositório representa uma linha diferente e usa elementos gráficos para criar um mapa que mostra as estações, as conexões e os trajetos possíveis, além de verificar o trânsito no sentido Centro-Bairro ou Bairro-Centro, a hora e a temperatura na cidade de São Paulo, as linhas que estão em construção não constam no mapa de trajetos, porém consta no mapa global.
 
-Saiba mais sobre este projeto acessando o arquivo html em `[SOBRE](https://github.com/Rafabs/Sampa-4-u/blob/main/Mapa%20dos%20Trilhos/Sobre/index.html)`
+Saiba mais sobre este projeto acessando o arquivo html em [SOBRE](https://github.com/Rafabs/Sampa-4-u/blob/main/Mapa%20dos%20Trilhos/Sobre/index.html)
 
 Cada linha recebeu uma cor em hexadecimal, de acordo com o GFTS da [SPTRANS](https://www.sptrans.com.br/desenvolvedores/login-desenvolvedores/), em ordem numérica:
 - ![#0455A1](https://via.placeholder.com/15/0455A1/000000?text=+) `#0455A1` Linha 01 - Azul 

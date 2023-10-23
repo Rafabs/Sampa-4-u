@@ -29,7 +29,7 @@ Cada linha recebeu uma cor em hexadecimal, de acordo com o GFTS da [SPTRANS](htt
 
 Cada arquivo `.py` na pasta `Mapa dos Trilhos` corresponde a um mapa de uma linha específica. Você pode explorar cada arquivo para ver como os mapas estão sendo criados e personalizados usando o Tkinter.
 
-Cada arquivo `.json` e `.geojson` na pasta `Mapa dos Trilhos/Data` corresponde a dados de toda a malha ferroviária e rodoviária EMTU/METRA/SPTRANS. Esses dados são abertos e foram extraídos do [Citylines](https://www.citylines.co/data?city=sao-paulo#city)
+Cada arquivo `.json` e `.geojson` na pasta `Mapa dos Trilhos/Data` corresponde a dados de toda a malha ferroviária e rodoviária EMTU/METRA/SPTRANS. 
 
 Cada arquivo `.png` na pasta `Mapa dos Trilhos/Icons` foram extraídos do [Flaticon](https://www.flaticon.com/), exceto os logotipos, que foram extraídos dos sites oficiais.
 

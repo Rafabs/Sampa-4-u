@@ -278,6 +278,24 @@ ul {
     border-radius: 3px;
 }
 
+.estacoes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.estacoes li {
+    flex: 0 0 30%; /* Define a largura das imagens */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.estacoes img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
+}
+
 footer {
     background-color: #292929;
     /* Cor de fundo do rodapé */

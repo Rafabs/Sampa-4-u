@@ -296,6 +296,37 @@ ul {
     max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
 }
 
+.centered-image {
+    text-align: center;
+    margin-top: 50px; /* Espaço entre a imagem e o botão */
+}
+
+.centered-image img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+}
+
+.centered-image button {
+    background-color: #4CAF50;
+    /* Cor de fundo verde */
+    color: white;
+    /* Cor do texto branco */
+    border: none;
+    /* Remove a borda do botão */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Muda o cursor ao passar o mouse sobre o botão */
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+.centered-image button:hover {
+    background-color: #45a049;
+    /* Cor de fundo verde escuro ao passar o mouse */
+}
+
 footer {
     background-color: #292929;
     /* Cor de fundo do rodapé */

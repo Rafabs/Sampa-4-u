@@ -10,6 +10,8 @@ Bem-vindo ao repositório de Sampa 4u! Neste repositório, você encontrará uma
 
 Este repositório foi criado com o objetivo de demonstrar como criar visualizações simples de mapas de linhas de metrô, trens e ônibus usando a biblioteca Tkinter. Cada script contido neste repositório representa uma linha diferente e usa elementos gráficos para criar um mapa que mostra as estações, as conexões e os trajetos possíveis, além de verificar o trânsito no sentido Centro-Bairro ou Bairro-Centro, a hora e a temperatura na cidade de São Paulo, as linhas que estão em construção não constam no mapa de trajetos, porém consta no mapa global.
 
+Saiba mais sobre este projeto acessando o arquivo html em `Mapa-dos-Trilhos/Sobre`
+
 Cada linha recebeu uma cor em hexadecimal, de acordo com o GFTS da [SPTRANS](https://www.sptrans.com.br/desenvolvedores/login-desenvolvedores/), em ordem numérica:
 - ![#0455A1](https://via.placeholder.com/15/0455A1/000000?text=+) `#0455A1` Linha 01 - Azul 
 - ![#007E5E](https://via.placeholder.com/15/007E5E/000000?text=+) `#007E5E` Linha 02 - Verde  
@@ -59,15 +61,15 @@ pip install selenium
 ## Fonte de dados
 
 Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentados pela comunidade, são eles:
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
-- ![Download](https://img.shields.io/badge/Último_Download-XX/XX/2023-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
+- ![Download](https://img.shields.io/badge/Último_Download-23/10/2023-white.svg) [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
+- ![Download](https://img.shields.io/badge/Último_Download-23/10/2023-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
+- ![Download](https://img.shields.io/badge/Último_Download-09/03/2020-white.svg) [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
+- ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
+- ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
+- ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
+- ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
 
 ## Como Executar
 
@@ -103,8 +105,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [x] Inserir dados da Qualidade do Ar no Mapa.
 - [x] Inserir dados do Programa Origem e Destino (1977, 1987 e 1997) no mapa.
 - [x] Inserir dados do GTFS da EMTU (Inserir os Pontos no Mapa e criar uma janela com os dados de linhas e tarifas).
-- [ ] Atualizar a data dos arquivos no README.md
-- [ ] Elaborar diagrama de blocos desse projeto
 - [ ] Desenvolver um arquivo html explicando todos os itens do projeto.
 - [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de horários previstos de chegada e saída no Mapa

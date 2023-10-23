@@ -46,6 +46,7 @@ ul {
 
 .logo-container img {
     margin-right: 10px;
+    max-width: 1000px; /* Define a largura máxima do conteúdo informativo */
 }
 
 .info-container {
@@ -54,6 +55,7 @@ ul {
 
 .version-info img {
     margin-left: 10px;
+    max-width: 1000px; /* Define a largura máxima do conteúdo informativo */
 }
 
 .note {

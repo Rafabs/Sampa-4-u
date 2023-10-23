@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #a10404;
+    background-color: #440000;
     /* Cor de fundo do cabeçalho */
     color: #FFF;
     /* Cor do texto no cabeçalho */
@@ -42,6 +42,24 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.logo-container {
+    float: left;
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.logo {
+    width: 100px; /* Largura da imagem (ajuste conforme necessário) */
+}
+
+.version-info {
+    float: center;
+    margin-top: 20px; /* Espaço entre a imagem e a informação de versão */
+}
+
+.version-info img {
+    margin-right: 10px; /* Espaço entre os ícones de versão e atualização */
 }
 
 .logo-container img {

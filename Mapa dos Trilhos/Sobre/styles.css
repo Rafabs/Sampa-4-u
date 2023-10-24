@@ -102,6 +102,22 @@ ul {
     /* Remove a margem padrão dos parágrafos dentro do bloco de nota */
 }
 
+.attention {
+    border-left: 3px solid #46d603;
+    /* Cor azul usada nos blocos de nota do GitHub */
+    background-color: #0d2900;
+    /* Cor de fundo do bloco de nota */
+    padding: 1px;
+    /* Espaçamento interno */
+    margin: 20px 0;
+    /* Espaçamento externo */
+}
+
+.attention p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos dentro do bloco de nota */
+}
+
 .lines {
     margin-bottom: 10px; /* Adicione margem na parte inferior */
 }
@@ -339,6 +355,16 @@ ul {
 .centered-image button:hover {
     background-color: #45a049;
     /* Cor de fundo verde escuro ao passar o mouse */
+}
+
+.card {
+    position: relative;
+    background-color: #554800; /* Amarelo escuro */
+    color: #ffd900; /* Amarelo claro */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px; /* Tamanho da fonte */
+    float: right; /* Alinha no lado direito */
 }
 
 footer {

@@ -6,6 +6,8 @@ from PIL import Image, ImageTk  # Manipular imagens
 from datetime import datetime
 from tkinter import ttk
 import tkinter as tk
+from tkinter import messagebox
+import atexit
 from colorama import Fore, Back, Style, init
 from guias import *
 from cet import transito
@@ -33,11 +35,8 @@ from Guararema import guararema
 # Inicializa o colorama
 init()
 
-# Abre um arquivo de log em modo de anexar
-with open('Mapa dos Trilhos\\Imgs\\log.txt', 'a') as log_file:
-    # Redefine a saída padrão para o arquivo de log
-    import sys
-    sys.stdout = log_file
+# Defina o caminho do arquivo de log
+log_file_path = 'Mapa dos Trilhos\\log.txt'
 
 def determinar_cor(status):
     if "Operação Normal" in status:
@@ -46,6 +45,14 @@ def determinar_cor(status):
         return "yellow"
     elif "Paralisada" in status:
         return "red"
+
+# Função para salvar logs
+def salvar_log(mensagem):
+    with open(log_file_path, 'a') as log_file:
+        log_file.write(mensagem + '\n')
+
+# Configurar a função para ser chamada quando o programa for fechado
+atexit.register(salvar_log, "Programa encerrado.")
 
 def atualizar_status():
     linhas, status_list, mensagens = status()
@@ -95,38 +102,40 @@ hora_atual = datetime.now().strftime("%H:%M:%S")
 # Imprime o texto formatado
 print(f"{Style.BRIGHT}{Fore.WHITE}Programa Iniciado às {Fore.RED}{hora_atual}{Style.RESET_ALL}")
 
+'''
 # Obtém o nome do Sistema Operacional
-os_name = "Windows"
+os_name = os.name
 print(f'{Fore.WHITE}{Style.BRIGHT}Nome do Sistema Operacional: {Fore.YELLOW}{os_name}')
 
 # Informações sobre a Plataforma
-os_platform = "Windows 10"
+os_platform = os.platform
 print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Plataforma: {Fore.YELLOW}{os_platform}')
 
 # Diretório Atual
-current_directory = "C:/Users/Usuario/Documentos"
+current_directory = os.directory
 print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Atual: {Fore.YELLOW}{current_directory}')
 
 # Usuário Atual
-current_user = "Usuario"
+current_user = os.user
 print(f'{Fore.WHITE}{Style.BRIGHT}Usuário Atual: {Fore.YELLOW}{current_user}')
 
 # Versão do Sistema Operacional
-os_version = "10.0.19043"
+os_version = os.version
 print(f'{Fore.WHITE}{Style.BRIGHT}Versão do Sistema Operacional: {Fore.YELLOW}{os_version}')
 
 # Informações sobre a Máquina
-machine_info = "x86_64"
+machine_info = os.machine
 print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Máquina: {Fore.YELLOW}{machine_info}')
 
 # Variáveis de Ambiente
-env_variables = {'PATH': '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'}
+env_variables = os.variable
 print(f'{Fore.WHITE}{Style.BRIGHT}Variáveis de Ambiente: {Fore.YELLOW}{env_variables}')
 
 # Diretório Temporário
-temp_dir = "C:/Users/Usuario/AppData/Local/Temp"
+temp_dir = os.temp
 print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Temporário: {Fore.YELLOW}{temp_dir}')
 print(f'{Fore.WHITE}')
+'''
 
 canvas = tk.Canvas(layout, width=1920, height=1080)
 canvas.pack()
@@ -393,6 +402,18 @@ button_pirapora.place(x=1830, y=355)
 
 # Chame a função para inicializar os textos ao iniciar o programa
 atualizar_status()
+
+def on_close():
+    if messagebox.askokcancel("Fechar o programa", "Tem certeza que deseja sair?"):
+        # Chamando o script para salvar o log
+        os.system('python save_log.py')
+        layout.destroy()
+
+# Conecta a função on_close com o evento de fechar a janela
+layout.protocol("WM_DELETE_WINDOW", on_close)
+
+# Adiciona a função on_close para ser chamada quando o programa for encerrado
+atexit.register(on_close)
 
 while True:
     canvas.itemconfigure(temperatura, text=get_weather())

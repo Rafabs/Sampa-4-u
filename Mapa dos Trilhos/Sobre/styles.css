@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #131313;
+    background-color: #222222;
     /* Cor do texto no cabeçalho */
     margin: 0;
     padding: 0;
@@ -366,6 +366,12 @@ ul {
     font-size: 12px; /* Tamanho da fonte */
     float: right; /* Alinha no lado direito */
 }
+
+hr {
+    background-color: #363636; /* Cor de fundo da linha */
+    height: 1px; /* Altura da linha */
+    border: none; /* Remove a borda padrão */
+  }
 
 footer {
     background-color: #292929;

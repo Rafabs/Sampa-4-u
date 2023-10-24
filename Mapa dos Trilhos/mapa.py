@@ -9,8 +9,17 @@ from pyproj import Transformer
 import os
 import requests
 from datetime import datetime, timedelta
+from colorama import Fore, Back, Style, init
+from datetime import datetime
+
+# Obtém a hora atual
+hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def mapa_global():
+
+    # Imprime o texto formatado
+    print(f"{Style.BRIGHT}{Fore.WHITE}Mapa iniciado às {Fore.GREEN}{hora_atual}{Fore.WHITE}, aguarde{Style.RESET_ALL}")
+    
     # Coordenadas do centro de São Paulo
     latitude = -23.550520
     longitude = -46.633308

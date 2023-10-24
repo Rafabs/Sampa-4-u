@@ -51,6 +51,7 @@ pip install threading
 pip install pyproj
 pip install pymupdf
 pip install selenium
+pip install colorama
 ```
 
 ## Linguagens e IDE Utilizadas

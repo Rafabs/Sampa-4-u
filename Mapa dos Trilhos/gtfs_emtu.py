@@ -6,8 +6,16 @@ from tkinter.scrolledtext import ScrolledText
 import folium
 from folium.plugins import MarkerCluster
 from PIL import Image, ImageTk
+from colorama import Fore, Back, Style, init
+from datetime import datetime
+
+# Obtém a hora atual
+hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def emtu():
+    # Imprime o texto formatado
+    print(f"{Style.BRIGHT}{Fore.WHITE}GTFS da EMTU iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")
+    
     # Criando a janela
     root = tk.Toplevel()
     root.title("Consulta de Rotas EMTU")

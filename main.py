@@ -6,6 +6,7 @@ from PIL import Image, ImageTk  # Manipular imagens
 from datetime import datetime
 from tkinter import ttk
 import tkinter as tk
+from colorama import Fore, Back, Style, init
 from guias import *
 from cet import transito
 from temperatura import get_weather
@@ -28,6 +29,15 @@ from CPTM_SP_L13 import line13
 from Metrô_SP_L15 import line15
 from Pirapora import pirapora
 from Guararema import guararema
+
+# Inicializa o colorama
+init()
+
+# Abre um arquivo de log em modo de anexar
+with open('Mapa dos Trilhos\\Imgs\\log.txt', 'a') as log_file:
+    # Redefine a saída padrão para o arquivo de log
+    import sys
+    sys.stdout = log_file
 
 def determinar_cor(status):
     if "Operação Normal" in status:
@@ -78,6 +88,45 @@ layout = tk.Tk()
 layout.title("SAMPA 4U")
 # Define uma largura e altura específicas para a janela
 layout.geometry(f"{1920}x{1080}")
+
+# Obtém a hora atual
+hora_atual = datetime.now().strftime("%H:%M:%S")
+
+# Imprime o texto formatado
+print(f"{Style.BRIGHT}{Fore.WHITE}Programa Iniciado às {Fore.RED}{hora_atual}{Style.RESET_ALL}")
+
+# Obtém o nome do Sistema Operacional
+os_name = "Windows"
+print(f'{Fore.WHITE}{Style.BRIGHT}Nome do Sistema Operacional: {Fore.YELLOW}{os_name}')
+
+# Informações sobre a Plataforma
+os_platform = "Windows 10"
+print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Plataforma: {Fore.YELLOW}{os_platform}')
+
+# Diretório Atual
+current_directory = "C:/Users/Usuario/Documentos"
+print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Atual: {Fore.YELLOW}{current_directory}')
+
+# Usuário Atual
+current_user = "Usuario"
+print(f'{Fore.WHITE}{Style.BRIGHT}Usuário Atual: {Fore.YELLOW}{current_user}')
+
+# Versão do Sistema Operacional
+os_version = "10.0.19043"
+print(f'{Fore.WHITE}{Style.BRIGHT}Versão do Sistema Operacional: {Fore.YELLOW}{os_version}')
+
+# Informações sobre a Máquina
+machine_info = "x86_64"
+print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Máquina: {Fore.YELLOW}{machine_info}')
+
+# Variáveis de Ambiente
+env_variables = {'PATH': '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'}
+print(f'{Fore.WHITE}{Style.BRIGHT}Variáveis de Ambiente: {Fore.YELLOW}{env_variables}')
+
+# Diretório Temporário
+temp_dir = "C:/Users/Usuario/AppData/Local/Temp"
+print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Temporário: {Fore.YELLOW}{temp_dir}')
+print(f'{Fore.WHITE}')
 
 canvas = tk.Canvas(layout, width=1920, height=1080)
 canvas.pack()

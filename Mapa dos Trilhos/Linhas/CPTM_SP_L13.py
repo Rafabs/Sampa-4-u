@@ -1,8 +1,15 @@
 import tkinter as tk  # Criação da Interface Gráfica
 from tkinter import *
 from PIL import Image, ImageTk  # Manipular imagens
+from colorama import Fore, Back, Style, init
+from datetime import datetime
+
+# Obtém a hora atual
+hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def line13():
+    # Imprime o texto formatado
+    print(f"{Style.BRIGHT}{Fore.WHITE}Mapa da LINHA 13 - JADE iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")     
     # Criando a janela
     root = tk.Toplevel()
     root.title("Linha 13 - Jade")

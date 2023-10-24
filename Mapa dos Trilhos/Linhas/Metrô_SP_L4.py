@@ -152,7 +152,7 @@ def line4():
                              font="Helvetica 12", anchor="w", angle=60)
     MCK = canvas.create_text(x3+8, y3-13, text="Higienópolis - Mackenzie",
                              font="Helvetica 12", anchor="w", angle=60)
-    PLT = canvas.create_text(x4+8, y4-13, text="Paulista",
+    PLT = canvas.create_text(x4+8, y4-13, text="Paulista - Pernambucanas",
                              font="Helvetica 12", anchor="w", angle=60)
     OFR = canvas.create_text(x5+8, y5-13, text="Oscar Freire",
                              font="Helvetica 12", anchor="w", angle=60)

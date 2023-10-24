@@ -28,6 +28,16 @@ section h2 {
     /* Cor do texto dos títulos das seções */
 }
 
+a {
+    color: #FFF;
+    /* Cor do texto dos títulos das seções */
+}
+
+h2 {
+    color: #FFF;
+    /* Cor do texto dos títulos das seções */
+}
+
 section p {
     color: #FFF;
     /* Cor do texto dos títulos das seções */
@@ -90,6 +100,10 @@ ul {
 .note p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos dentro do bloco de nota */
+}
+
+.lines {
+    margin-bottom: 10px; /* Adicione margem na parte inferior */
 }
 
 .line-list {

@@ -52,6 +52,7 @@ pip install pyproj
 pip install pymupdf
 pip install selenium
 pip install colorama
+pip install logging
 ```
 
 ## Linguagens e IDE Utilizadas

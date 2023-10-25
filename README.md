@@ -107,9 +107,11 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [x] Inserir dados do Programa Origem e Destino (1977, 1987 e 1997) no mapa.
 - [x] Inserir dados do GTFS da EMTU (Inserir os Pontos no Mapa e criar uma janela com os dados de linhas e tarifas).
 - [x] Desenvolver um arquivo html explicando todos os itens do projeto.
-- [ ] Inserir itens do print no terminal informando as ações do programa e o horário para geração de log.
+- [x] Inserir itens do print no terminal informando as ações do programa e o horário para geração de log.
 - [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de horários previstos de chegada e saída no Mapa
+- [ ] Inserir informações de Operação no arquivo html
+- [ ] Desenvolver para visualizar o arquivo do mapa através do arquivo index.html
 
 ## Contribuição
 

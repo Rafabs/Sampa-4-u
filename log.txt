@@ -1,3 +1,0 @@
-[1m[37mPrograma Iniciado às [31m17:10:05[0m
-C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
-  warnings.warn("Image was not the expected size")

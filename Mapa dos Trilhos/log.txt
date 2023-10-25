@@ -1,0 +1,10 @@
+2023-10-25 10:13:43,088 - INFO - [1m[37mPrograma Iniciado às [31m10:13:43[0m
+2023-10-25 10:13:43,211 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2023-10-25 10:13:43,212 - ERROR -   warnings.warn("Image was not the expected size")
+2023-10-25 10:14:19,640 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m10:13:42[0m
+2023-10-25 10:14:22,493 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m10:13:42[0m
+2023-10-25 10:18:03,263 - INFO - [1m[37mPrograma Iniciado às [31m10:18:03[0m
+2023-10-25 10:18:03,336 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2023-10-25 10:18:03,346 - ERROR -   warnings.warn("Image was not the expected size")
+2023-10-25 10:18:19,242 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m10:18:03[0m
+2023-10-25 10:18:27,074 - INFO - [1m[37mMapa da Rede iniciado às [32m10:18:01[0m

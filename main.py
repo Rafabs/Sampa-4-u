@@ -6,8 +6,7 @@ from PIL import Image, ImageTk  # Manipular imagens
 from datetime import datetime
 from tkinter import ttk
 import tkinter as tk
-from tkinter import messagebox
-import atexit
+import logging
 from colorama import Fore, Back, Style, init
 from guias import *
 from cet import transito
@@ -35,8 +34,27 @@ from Guararema import guararema
 # Inicializa o colorama
 init()
 
-# Defina o caminho do arquivo de log
-log_file_path = 'Mapa dos Trilhos\\log.txt'
+# Configuração do logger
+logging.basicConfig(filename='Mapa dos Trilhos\\log.txt', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Redirecionamento de sys.stdout e sys.stderr para o logger
+class StreamToLogger:
+    def __init__(self, logger, log_level=logging.INFO):
+        self.logger = logger
+        self.log_level = log_level
+        self.linebuf = ''
+
+    def write(self, buf):
+        for line in buf.rstrip().splitlines():
+            self.logger.log(self.log_level, line.rstrip())
+
+    def flush(self):
+        pass
+
+#Configuração de sys.stdout e sys.stderr 
+sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
+sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 
 def determinar_cor(status):
     if "Operação Normal" in status:
@@ -45,14 +63,6 @@ def determinar_cor(status):
         return "yellow"
     elif "Paralisada" in status:
         return "red"
-
-# Função para salvar logs
-def salvar_log(mensagem):
-    with open(log_file_path, 'a') as log_file:
-        log_file.write(mensagem + '\n')
-
-# Configurar a função para ser chamada quando o programa for fechado
-atexit.register(salvar_log, "Programa encerrado.")
 
 def atualizar_status():
     linhas, status_list, mensagens = status()
@@ -402,18 +412,6 @@ button_pirapora.place(x=1830, y=355)
 
 # Chame a função para inicializar os textos ao iniciar o programa
 atualizar_status()
-
-def on_close():
-    if messagebox.askokcancel("Fechar o programa", "Tem certeza que deseja sair?"):
-        # Chamando o script para salvar o log
-        os.system('python save_log.py')
-        layout.destroy()
-
-# Conecta a função on_close com o evento de fechar a janela
-layout.protocol("WM_DELETE_WINDOW", on_close)
-
-# Adiciona a função on_close para ser chamada quando o programa for encerrado
-atexit.register(on_close)
 
 while True:
     canvas.itemconfigure(temperatura, text=get_weather())

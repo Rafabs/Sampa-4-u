@@ -8,3 +8,23 @@
 2023-10-25 10:18:03,346 - ERROR -   warnings.warn("Image was not the expected size")
 2023-10-25 10:18:19,242 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m10:18:03[0m
 2023-10-25 10:18:27,074 - INFO - [1m[37mMapa da Rede iniciado às [32m10:18:01[0m
+2023-10-26 17:34:50,187 - INFO - [1m[37mPrograma Iniciado às [31m17:34:50[0m
+2023-10-26 17:34:50,294 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2023-10-26 17:34:50,295 - ERROR -   warnings.warn("Image was not the expected size")
+2023-10-26 17:34:52,976 - WARNING - There was an error managing chrome (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: Foi forçado o cancelamento de uma conexão existente pelo host remoto. (os error 10054)); using driver found in the cache
+2023-10-26 17:35:12,604 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m17:34:49[0m
+2023-10-26 17:35:37,886 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m17:34:49[0m
+2023-10-26 17:35:46,839 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m17:34:49[0m
+2023-10-26 17:35:55,286 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m17:34:49[0m
+2023-10-26 17:36:08,255 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m17:34:49[0m
+2023-10-26 17:36:20,222 - INFO - [1m[37mMapa da LINHA 7 - RUBI iniciado às [32m17:34:49[0m
+2023-10-26 17:36:27,558 - INFO - [1m[37mMapa da LINHA 8 - DIAMANTE iniciado às [32m17:34:49[0m
+2023-10-26 17:36:34,766 - INFO - [1m[37mMapa da LINHA 9 - ESMERALDA iniciado às [32m17:34:49[0m
+2023-10-26 17:37:45,431 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m17:34:49[0m
+2023-10-26 17:37:53,167 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m17:34:49[0m
+2023-10-26 17:38:01,750 - INFO - [1m[37mMapa da LINHA 10 - TURQUESA iniciado às [32m17:34:49[0m
+2023-10-26 17:38:09,478 - INFO - [1m[37mMapa da LINHA 11 - CORAL iniciado às [32m17:34:49[0m
+2023-10-26 17:38:16,726 - INFO - [1m[37mMapa da LINHA 12 - SAFIRA iniciado às [32m17:34:49[0m
+2023-10-26 17:38:26,271 - INFO - [1m[37mMapa da LINHA 13 - JADE iniciado às [32m17:34:49[0m
+2023-10-26 17:38:35,391 - INFO - [1m[37mMapa da LINHA 15 - PRATA iniciado às [32m17:34:49[0m
+2023-10-26 17:39:01,918 - INFO - [1m[37mMapa da LINHA 12 - SAFIRA iniciado às [32m17:34:49[0m

@@ -241,7 +241,7 @@ def line3():
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_BAS = canvas.create_text(x8+8, y8-13, text="Brás",
                                   font="Helvetica 12", anchor="w", angle=60)
-    nome_BRE = canvas.create_text(x9+8, y9-13, text="Bresses - Mooca",
+    nome_BRE = canvas.create_text(x9+8, y9-13, text="Bresser - Mooca",
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_BEL = canvas.create_text(x10+8, y10-13, text="Belém",
                                   font="Helvetica 12", anchor="w", angle=60)
@@ -249,7 +249,7 @@ def line3():
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_CAR = canvas.create_text(x12+8, y12-13, text="Carrão - Assaí Atacadista",
                                   font="Helvetica 12", anchor="w", angle=60)
-    nome_PEN = canvas.create_text(x13+8, y13-13, text="Penha - Besni",
+    nome_PEN = canvas.create_text(x13+8, y13-13, text="Penha - Lojas Besni",
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_VTD = canvas.create_text(x14+8, y14-13, text="Vila Matilde",
                                   font="Helvetica 12", anchor="w", angle=60)

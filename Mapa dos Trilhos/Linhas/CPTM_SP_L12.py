@@ -167,7 +167,7 @@ def line12():
     canvas.lift(l13_icon)
 
     # Define as Estações
-    nome_BAS = canvas.create_text(x1+8, y1-13, text="Palmeiras - Barra Funda",
+    nome_BAS = canvas.create_text(x1+8, y1-13, text="Brás",
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_TAT = canvas.create_text(x2+8, y2-13, text="Tatuapé",
                                   font="Helvetica 12", anchor="w", angle=60)

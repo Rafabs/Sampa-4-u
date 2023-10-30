@@ -113,6 +113,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Inserir informações de horários previstos de chegada e saída no Mapa
 - [ ] Inserir informações de Operação no arquivo index.html
 - [ ] Desenvolver visualização do arquivo do mapa através do arquivo index.html
+- [ ] Melhorar soluções de loop do relógio de main.py
 
 ## Contribuição
 

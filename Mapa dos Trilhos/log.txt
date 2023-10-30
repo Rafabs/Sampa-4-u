@@ -95,3 +95,8 @@
 2023-10-30 11:30:22,662 - ERROR - TclError
 2023-10-30 11:30:22,662 - ERROR - :
 2023-10-30 11:30:22,662 - ERROR - invalid command name ".!canvas"
+2023-10-30 14:56:44,787 - INFO - [1m[37mPrograma Iniciado às [31m14:56:44[0m
+2023-10-30 14:56:44,917 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2023-10-30 14:56:44,918 - ERROR -   warnings.warn("Image was not the expected size")
+2023-10-30 14:57:41,281 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m14:56:44[0m
+2023-10-30 14:57:50,141 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m14:56:44[0m

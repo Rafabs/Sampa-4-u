@@ -173,7 +173,7 @@ def line4():
                              font="Helvetica 12", anchor="w", angle=60)
     MOR = canvas.create_text(x10+8, y10-13, text="São Paulo - Morumbi",
                              font="Helvetica 12", anchor="w", angle=60)
-    VSN = canvas.create_text(x11+8, y11-13, text="Vila Sônia",
+    VSN = canvas.create_text(x11+8, y11-13, text="Vila Sônia - Profª Elisabeth Terneiro",
                              font="Helvetica 12", anchor="w", angle=60)
 
     dev = canvas.create_text(

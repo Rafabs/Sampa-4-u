@@ -111,8 +111,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [x] Inserir itens do print no terminal informando as ações do programa e o horário para geração de log.
 - [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de horários previstos de chegada e saída no Mapa
-- [ ] Inserir informações de Operação no arquivo html
-- [ ] Desenvolver para visualizar o arquivo do mapa através do arquivo index.html
+- [ ] Inserir informações de Operação no arquivo index.html
+- [ ] Desenvolver visualização do arquivo do mapa através do arquivo index.html
 
 ## Contribuição
 

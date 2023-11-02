@@ -100,3 +100,6 @@
 2023-10-30 14:56:44,918 - ERROR -   warnings.warn("Image was not the expected size")
 2023-10-30 14:57:41,281 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m14:56:44[0m
 2023-10-30 14:57:50,141 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m14:56:44[0m
+2023-11-02 13:42:15,262 - INFO - [1m[37mPrograma Iniciado às [31m13:42:15[0m
+2023-11-02 13:42:15,432 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2023-11-02 13:42:15,432 - ERROR -   warnings.warn("Image was not the expected size")

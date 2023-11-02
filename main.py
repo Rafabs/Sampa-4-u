@@ -59,7 +59,7 @@ sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 def determinar_cor(status):
     if "Operação Normal" in status:
         return "green"
-    elif "Circulação de Trens" in status or "Velocidade Reduzida" in status:
+    elif "Circulação de Trens" or "Operação Parcial" in status or "Velocidade Reduzida" in status:
         return "yellow"
     elif "Paralisada" in status:
         return "red"

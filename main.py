@@ -59,13 +59,13 @@ sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 def determinar_cor(status):
     if "Operação Normal" in status:
         return "green"
-    elif "Circulação de Trens" or "Operação Parcial" in status or "Velocidade Reduzida" in status:
+    elif "Circulação de Trens" in status or "Operação Parcial" in status or "Velocidade Reduzida" in status:
         return "yellow"
     elif "Paralisada" in status:
         return "red"
 
 def atualizar_status():
-    linhas, status_list, mensagens = status()
+    linhas, status_list, lista_mensagens = status()
 
     for linha, stat in zip(linhas, status_list):
         texto = f"{stat}"
@@ -95,10 +95,10 @@ def atualizar_status():
             label_l13.config(text=texto, fg=determinar_cor(stat), bg="#333333")
         elif linha == "Linha 15 - Prata":
             label_l15.config(text=texto, fg=determinar_cor(stat), bg="#333333")                                                                                                                                    
-        # Adicione mais elifs conforme necessário para as outras linhas
 
-    for mensagem in mensagens:
-        label_msg.config(text=mensagem, fg="yellow", bg="#333333")       
+    for mensagem in lista_mensagens:
+        label_msg.config(text=mensagem, fg="yellow", bg="#333333") 
+        print(mensagem)    
 
 # Criando a janela
 layout = tk.Tk()

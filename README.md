@@ -109,6 +109,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Inserir informações de Operação no arquivo index.html
 - [ ] Desenvolver visualização do arquivo do mapa através do arquivo index.html
 - [ ] Melhorar soluções de loop do relógio de main.py
+- [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela.
 
 ## Contribuição
 

@@ -97,7 +97,8 @@ def atualizar_status():
             label_l15.config(text=texto, fg=determinar_cor(stat), bg="#333333")                                                                                                                                    
 
     for mensagem in lista_mensagens:
-        label_msg.config(text=mensagem, fg="yellow", bg="#333333") 
+        mensagens = '\n'.join(lista_mensagens)
+        label_msg.config(text=mensagens, fg="yellow", bg="#333333", anchor='center')
         print(mensagem)    
 
 # Criando a janela

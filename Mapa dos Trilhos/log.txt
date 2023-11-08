@@ -2521,3 +2521,71 @@
 2023-11-03 18:54:22,496 - ERROR - TclError
 2023-11-03 18:54:22,496 - ERROR - :
 2023-11-03 18:54:22,496 - ERROR - invalid command name ".!canvas"
+2023-11-08 15:16:18,424 - INFO - [1m[37mPrograma Iniciado às [31m15:16:18[0m
+2023-11-08 15:16:18,566 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2023-11-08 15:16:18,567 - ERROR -   warnings.warn("Image was not the expected size")
+2023-11-08 15:16:30,997 - INFO - Nenhuma ocorrência no momento.
+2023-11-08 15:16:41,846 - ERROR - Traceback (most recent call last):
+2023-11-08 15:16:41,846 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Sampa-4-u\main.py", line 418, in <module>
+2023-11-08 15:16:41,848 - ERROR - canvas.itemconfigure(temperatura, text=get_weather())
+2023-11-08 15:16:41,848 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2959, in itemconfigure
+2023-11-08 15:16:41,864 - ERROR - return self._configure(('itemconfigure', tagOrId), cnf, kw)
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,864 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR - ^
+2023-11-08 15:16:41,865 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2023-11-08 15:16:41,865 - ERROR - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2023-11-08 15:16:41,865 - ERROR - _tkinter
+2023-11-08 15:16:41,865 - ERROR - .
+2023-11-08 15:16:41,865 - ERROR - TclError
+2023-11-08 15:16:41,865 - ERROR - :
+2023-11-08 15:16:41,865 - ERROR - invalid command name ".!canvas"

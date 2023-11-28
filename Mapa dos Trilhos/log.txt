@@ -2794,3 +2794,77 @@
 2023-11-14 13:59:47,267 - ERROR - TclError
 2023-11-14 13:59:47,268 - ERROR - :
 2023-11-14 13:59:47,268 - ERROR - invalid command name ".!canvas"
+2023-11-28 09:38:38,960 - INFO - [1m[37mPrograma Iniciado às [31m09:38:38[0m
+2023-11-28 09:38:39,117 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2023-11-28 09:38:39,117 - ERROR -   warnings.warn("Image was not the expected size")
+2023-11-28 09:39:00,357 - INFO - Linha 1 - Azul: - Devido à greve dos Metroviários o Metrô de São Paulo está operando parcialmente, entre as estações TIRADENTES e ANA ROSA. Mais informações ligue para 0800 7707722.
+2023-11-28 09:39:00,359 - INFO - Linha 2 - Verde: - Devido à greve dos Metroviários o Metrô de São Paulo está operando parcialmente, entre as estações ALTO DO IPIRANGA e CLÍNICAS. Mais informações ligue para 0800 7707722.
+2023-11-28 09:39:00,362 - INFO - Linha 3 - Vermelha: - Devido à greve dos Metroviários o Metrô de São Paulo está operando parcialmente, entre as estações BRESSER e SANTA CECÍLIA. Mais informações ligue para 0800 7707722.
+2023-11-28 09:39:00,364 - INFO - RUBI: Por motivo de greve os trens da linha 7-Rubi estão circulando entre a estação Luz e a estação Caieiras
+2023-11-28 09:39:00,365 - INFO - TURQUESA: Por motivo de greve os trens da linha 10-Turquesa não estão operando.
+2023-11-28 09:39:00,367 - INFO - CORAL: Por motivo de greve os trens da linha 11 Coral estão circulando somente entre as estações Luz e Guaianazes e com maiores intervalos.
+2023-11-28 09:39:00,367 - INFO - Linha 15 - Prata: Devido à greve dos metroviários a circulação de trens está paralisada.
+2023-11-28 09:43:56,680 - ERROR - Traceback (most recent call last):
+2023-11-28 09:43:56,682 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Sampa-4-u\main.py", line 418, in <module>
+2023-11-28 09:43:56,684 - ERROR - canvas.itemconfigure(temperatura, text=get_weather())
+2023-11-28 09:43:56,685 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2959, in itemconfigure
+2023-11-28 09:43:56,687 - ERROR - return self._configure(('itemconfigure', tagOrId), cnf, kw)
+2023-11-28 09:43:56,687 - ERROR - ^
+2023-11-28 09:43:56,688 - ERROR - ^
+2023-11-28 09:43:56,688 - ERROR - ^
+2023-11-28 09:43:56,689 - ERROR - ^
+2023-11-28 09:43:56,689 - ERROR - ^
+2023-11-28 09:43:56,689 - ERROR - ^
+2023-11-28 09:43:56,689 - ERROR - ^
+2023-11-28 09:43:56,690 - ERROR - ^
+2023-11-28 09:43:56,690 - ERROR - ^
+2023-11-28 09:43:56,690 - ERROR - ^
+2023-11-28 09:43:56,691 - ERROR - ^
+2023-11-28 09:43:56,691 - ERROR - ^
+2023-11-28 09:43:56,691 - ERROR - ^
+2023-11-28 09:43:56,692 - ERROR - ^
+2023-11-28 09:43:56,692 - ERROR - ^
+2023-11-28 09:43:56,692 - ERROR - ^
+2023-11-28 09:43:56,693 - ERROR - ^
+2023-11-28 09:43:56,693 - ERROR - ^
+2023-11-28 09:43:56,693 - ERROR - ^
+2023-11-28 09:43:56,693 - ERROR - ^
+2023-11-28 09:43:56,694 - ERROR - ^
+2023-11-28 09:43:56,695 - ERROR - ^
+2023-11-28 09:43:56,695 - ERROR - ^
+2023-11-28 09:43:56,695 - ERROR - ^
+2023-11-28 09:43:56,695 - ERROR - ^
+2023-11-28 09:43:56,695 - ERROR - ^
+2023-11-28 09:43:56,695 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,696 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,697 - ERROR - ^
+2023-11-28 09:43:56,698 - ERROR - ^
+2023-11-28 09:43:56,698 - ERROR - ^
+2023-11-28 09:43:56,698 - ERROR - ^
+2023-11-28 09:43:56,698 - ERROR - ^
+2023-11-28 09:43:56,698 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2023-11-28 09:43:56,699 - ERROR - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2023-11-28 09:43:56,699 - ERROR - _tkinter
+2023-11-28 09:43:56,700 - ERROR - .
+2023-11-28 09:43:56,700 - ERROR - TclError
+2023-11-28 09:43:56,700 - ERROR - :
+2023-11-28 09:43:56,700 - ERROR - invalid command name ".!canvas"

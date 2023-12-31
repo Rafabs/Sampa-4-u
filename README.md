@@ -64,7 +64,7 @@ pip install logging
 
 Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentados pela comunidade, são eles:
 - ![Download](https://img.shields.io/badge/Último_Download-23/10/2023-white.svg) [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
-- ![Download](https://img.shields.io/badge/Último_Download-23/10/2023-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
+- ![Download](https://img.shields.io/badge/Último_Download-30/12/2023-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
 - ![Download](https://img.shields.io/badge/Último_Download-09/03/2020-white.svg) [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
 - ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
 - ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)

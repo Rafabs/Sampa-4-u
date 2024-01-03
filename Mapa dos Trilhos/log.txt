@@ -3349,3 +3349,90 @@
 2023-12-31 00:02:23,990 - ERROR - TclError
 2023-12-31 00:02:23,990 - ERROR - :
 2023-12-31 00:02:23,990 - ERROR - invalid command name ".!canvas"
+2024-01-03 15:58:47,069 - INFO - [1m[37mPrograma Iniciado às [31m15:58:47[0m
+2024-01-03 15:58:47,239 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-03 15:58:47,239 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-03 15:59:21,013 - INFO - SAFIRA: DEVIDO OBRAS DE MELHORIAS OS TRENS DA LINHA 12 - SAFIRA NÃO ESTÃO CIRCULANDO ENTRE AS ESTAÇÕES BRÁS E TATUAPÉ, COMO ALTERNATIVA UTILIZE AS LINHAS 11-CORAL DA CPTM E 3-VERMELHA DO METRÔ
+2024-01-03 15:59:37,692 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m15:58:45[0m
+2024-01-03 16:01:42,288 - ERROR - Traceback (most recent call last):
+2024-01-03 16:01:42,288 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Sampa-4-u\main.py", line 418, in <module>
+2024-01-03 16:01:42,289 - ERROR - canvas.itemconfigure(temperatura, text=get_weather())
+2024-01-03 16:01:42,290 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2959, in itemconfigure
+2024-01-03 16:01:42,309 - ERROR - return self._configure(('itemconfigure', tagOrId), cnf, kw)
+2024-01-03 16:01:42,309 - ERROR - ^
+2024-01-03 16:01:42,309 - ERROR - ^
+2024-01-03 16:01:42,309 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,310 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,311 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR - ^
+2024-01-03 16:01:42,312 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2024-01-03 16:01:42,312 - ERROR - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2024-01-03 16:01:42,312 - ERROR - _tkinter
+2024-01-03 16:01:42,312 - ERROR - .
+2024-01-03 16:01:42,312 - ERROR - TclError
+2024-01-03 16:01:42,312 - ERROR - :
+2024-01-03 16:01:42,314 - ERROR - invalid command name ".!canvas"
+2024-01-03 16:01:45,859 - INFO - [1m[37mPrograma Iniciado às [31m16:01:45[0m
+2024-01-03 16:01:45,928 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-03 16:01:45,928 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-03 16:02:18,791 - INFO - SAFIRA: DEVIDO OBRAS DE MELHORIAS OS TRENS DA LINHA 12 - SAFIRA NÃO ESTÃO CIRCULANDO ENTRE AS ESTAÇÕES BRÁS E TATUAPÉ, COMO ALTERNATIVA UTILIZE AS LINHAS 11-CORAL DA CPTM E 3-VERMELHA DO METRÔ
+2024-01-03 16:02:22,557 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m16:01:45[0m
+2024-01-03 16:03:21,816 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m16:01:45[0m
+2024-01-03 16:03:33,392 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m16:01:45[0m
+2024-01-03 16:03:40,799 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m16:01:45[0m
+2024-01-03 16:03:50,504 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m16:01:45[0m
+2024-01-03 16:03:57,007 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m16:01:45[0m
+2024-01-03 16:04:05,352 - INFO - [1m[37mMapa da LINHA 7 - RUBI iniciado às [32m16:01:45[0m
+2024-01-03 16:04:12,823 - INFO - [1m[37mMapa da LINHA 8 - DIAMANTE iniciado às [32m16:01:45[0m
+2024-01-03 16:04:20,840 - INFO - [1m[37mMapa da LINHA 9 - ESMERALDA iniciado às [32m16:01:45[0m
+2024-01-03 16:04:27,879 - INFO - [1m[37mMapa da LINHA 10 - TURQUESA iniciado às [32m16:01:45[0m
+2024-01-03 16:04:33,400 - INFO - [1m[37mMapa da LINHA 11 - CORAL iniciado às [32m16:01:45[0m
+2024-01-03 16:04:52,776 - INFO - [1m[37mMapa da LINHA 12 - SAFIRA iniciado às [32m16:01:45[0m
+2024-01-03 16:04:59,984 - INFO - [1m[37mMapa da LINHA 13 - JADE iniciado às [32m16:01:45[0m
+2024-01-03 16:05:05,791 - INFO - [1m[37mMapa da LINHA 15 - PRATA iniciado às [32m16:01:45[0m
